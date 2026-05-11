@@ -1,0 +1,10 @@
+{
+  "deepseek:manual": {
+    "provider": "deepseek",
+    "auth": {
+      "type": "api_key",
+      "key": "sk-793970d80c9b41b4bec85c1ef6ab71d8"
+    },
+    "isDefault": true
+  }
+}

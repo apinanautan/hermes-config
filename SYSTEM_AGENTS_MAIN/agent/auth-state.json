@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "order": {
+    "openai-codex": [
+      "openai-codex:codex-cli"
+    ]
+  },
+  "lastGood": {
+    "openai-codex": "openai-codex:codex-cli",
+    "deepseek": "deepseek:manual"
+  },
+  "usageStats": {
+    "deepseek:manual": {
+      "errorCount": 0,
+      "lastUsed": 1778095646654
+    },
+    "openai-codex:codex-cli": {
+      "errorCount": 1,
+      "lastUsed": 1778499089912,
+      "lastFailureAt": 1778499216294,
+      "failureCounts": {
+        "rate_limit": 1
+      },
+      "cooldownUntil": 1778513616294,
+      "cooldownReason": "rate_limit",
+      "cooldownModel": "gpt-5.5"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+Session: agent:main:telegram:direct:robberzaz
+File: /home/apinan/.openclaw/agents/main/sessions/2026-05-11T13-39-29-585Z_6f9b1940-96b4-423a-ac68-faaf61f17ab3.jsonl
+Size: 55582 bytes
+Total messages: 19
+First user: Termination requested for session nova-prairie.
+Last user: 🧑🏼‍💻[M2] [สรุป] 🧑🏼‍💻
+
+ติดตั้งและย้ายข้อมูลเรียบร้อยแล้วครับ ตอนนี้ผมสั่งรันร่างใหม่บน Windows Native
+Last assistant: (no output)
+Summary created: 2026-05-11T20:54:18.514947
+Last 3 user messages:
+  [assistant] 🧑🏼‍💻[M2] [ทำงาน] 🧑🏼‍💻
+
+🧠 **จุดแก้ไข/สิ่งที่จะทำ:**
+ผมทำการติดตั้ง OpenClaw บน Windows Native และย้าย
+  [toolResult] (no output)
+  [assistant] 🧑🏼‍💻[M2] [สรุป] 🧑🏼‍💻
+
+ติดตั้งและย้ายข้อมูลเรียบร้อยแล้วครับ ตอนนี้ผมสั่งรันร่างใหม่บน Windows Native

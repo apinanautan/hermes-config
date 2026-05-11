@@ -1,0 +1,937 @@
+[2026-05-10 22:21:54] === Session Status ===
+[2026-05-10 22:21:54] STATUS: agent:main:main | context: 82.5% | messages: 0
+0
+[2026-05-10 22:21:54] STATUS: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 0
+0
+[2026-05-10 22:21:54] STATUS: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 0
+0
+[2026-05-10 22:21:55] STATUS: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 0
+0
+[2026-05-10 22:21:55] STATUS: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 0
+0
+[2026-05-10 22:21:55] STATUS: agent:main:discord:direct:817750913405157406 | context: 24.6% | messages: 0
+0
+[2026-05-10 22:21:55] STATUS: agent:main:telegram:direct:robberzaz | context: 25.7% | messages: 0
+0
+[2026-05-10 22:21:55] STATUS: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 0
+0
+[2026-05-10 22:21:55] STATUS: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 0
+0
+[2026-05-10 22:22:04] === Starting compact check ===
+[2026-05-10 22:22:04] CHECK: agent:main:main | context: 82.5% | messages: 0
+0
+[2026-05-10 22:22:04] COMPACTED: agent:main:main (0
+0 -> 30 messages, backup: /home/apinan/.openclaw/agents/main/sessions/06348990-c9bc-4461-baf7-514f53e48408.jsonl.compact-20260510-222204)
+[2026-05-10 22:22:04] Summary created: /home/apinan/.openclaw/agents/main/sessions/.summaries/agent:main:main.summary.txt
+[2026-05-10 22:22:04] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 0
+0
+[2026-05-10 22:22:05] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 0
+0
+[2026-05-10 22:22:05] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 0
+0
+[2026-05-10 22:22:05] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 0
+0
+[2026-05-10 22:22:05] CHECK: agent:main:discord:direct:817750913405157406 | context: 24.6% | messages: 0
+0
+[2026-05-10 22:22:05] CHECK: agent:main:telegram:direct:robberzaz | context: 26.1% | messages: 0
+0
+[2026-05-10 22:22:05] COMPACTED: agent:main:telegram:direct:robberzaz (0
+0 -> 30 messages, backup: /home/apinan/.openclaw/agents/main/sessions/2026-05-10T14-16-23-255Z_d7bfd4f9-871b-4a92-adcb-9c206b39fdc4.jsonl.compact-20260510-222205)
+[2026-05-10 22:22:05] Summary created: /home/apinan/.openclaw/agents/main/sessions/.summaries/agent:main:telegram:direct:robberzaz.summary.txt
+[2026-05-10 22:22:05] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 0
+0
+[2026-05-10 22:22:05] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 0
+0
+[2026-05-10 22:22:05] === Check complete: 2/9 sessions compacted ===
+[2026-05-10 22:25:02] === Session Status ===
+[2026-05-10 22:25:02] STATUS: agent:main:main | context: 11.0% | messages: 30
+[2026-05-10 22:25:02] STATUS: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-10 22:25:02] STATUS: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-10 22:25:02] STATUS: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-10 22:25:02] STATUS: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-10 22:25:03] STATUS: agent:main:discord:direct:817750913405157406 | context: 24.6% | messages: 92
+[2026-05-10 22:25:03] STATUS: agent:main:telegram:direct:robberzaz | context: 16.5% | messages: 44
+[2026-05-10 22:25:03] STATUS: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-10 22:25:03] STATUS: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-10 22:49:30] === Starting compact check ===
+[2026-05-10 22:49:30] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-10 22:49:30] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-10 22:49:31] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-10 22:49:31] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-10 22:49:31] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-10 22:49:31] CHECK: agent:main:discord:direct:817750913405157406 | context: 24.6% | messages: 92
+[2026-05-10 22:49:32] COMPACTED: agent:main:discord:direct:817750913405157406 (92 messages, backup: /home/apinan/.openclaw/agents/main/sessions/99d957bf-4b71-4f64-8fd2-0087aecb51f4.jsonl.compact-20260510-224932)
+[2026-05-10 22:49:32] Summary created: /home/apinan/.openclaw/agents/main/sessions/.summaries/agent:main:discord:direct:817750913405157406.summary.txt
+[2026-05-10 22:49:32] CHECK: agent:main:telegram:direct:robberzaz | context: 21.6% | messages: 66
+[2026-05-10 22:49:32] COMPACTED: agent:main:telegram:direct:robberzaz (66 messages, backup: /home/apinan/.openclaw/agents/main/sessions/2026-05-10T14-16-23-255Z_d7bfd4f9-871b-4a92-adcb-9c206b39fdc4.jsonl.compact-20260510-224932)
+[2026-05-10 22:49:32] Summary created: /home/apinan/.openclaw/agents/main/sessions/.summaries/agent:main:telegram:direct:robberzaz.summary.txt
+[2026-05-10 22:49:32] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-10 22:49:32] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-10 22:49:32] === Check complete: 2/9 sessions compacted ===
+[2026-05-10 22:59:38] === Starting compact check ===
+[2026-05-10 22:59:38] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-10 22:59:39] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-10 22:59:39] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-10 22:59:39] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-10 22:59:39] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-10 22:59:39] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-10 22:59:39] CHECK: agent:main:telegram:direct:robberzaz | context: 18.1% | messages: 48
+[2026-05-10 22:59:39] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-10 22:59:39] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-10 23:02:05] === Starting compact check ===
+[2026-05-10 23:02:06] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-10 23:02:06] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-10 23:02:06] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-10 23:02:06] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-10 23:02:06] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-10 23:02:06] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-10 23:02:06] CHECK: agent:main:telegram:direct:robberzaz | context: 22.5% | messages: 60
+[2026-05-10 23:02:06] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-10 23:02:06] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-10 23:02:11] === Starting compact check ===
+[2026-05-10 23:02:11] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-10 23:02:11] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-10 23:02:12] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-10 23:02:12] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-10 23:02:12] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-10 23:02:12] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-10 23:02:12] CHECK: agent:main:telegram:direct:robberzaz | context: 22.9% | messages: 62
+[2026-05-10 23:02:12] COMPACTED: agent:main:telegram:direct:robberzaz (62 messages, backup: /home/apinan/.openclaw/agents/main/sessions/2026-05-10T14-16-23-255Z_d7bfd4f9-871b-4a92-adcb-9c206b39fdc4.jsonl.compact-20260510-230212)
+[2026-05-10 23:02:12] Summary created: /home/apinan/.openclaw/agents/main/sessions/.summaries/agent:main:telegram:direct:robberzaz.summary.txt
+[2026-05-10 23:02:12] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-10 23:02:12] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-10 23:03:34] === Starting compact check ===
+[2026-05-10 23:03:34] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-10 23:03:34] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-10 23:03:34] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-10 23:03:34] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-10 23:03:34] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-10 23:03:34] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-10 23:03:34] CHECK: agent:main:telegram:direct:robberzaz | context: 17.0% | messages: 43
+[2026-05-10 23:03:34] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-10 23:03:34] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-10 23:03:46] === Starting compact check ===
+[2026-05-10 23:03:46] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-10 23:03:46] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-10 23:03:46] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-10 23:03:46] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-10 23:03:46] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-10 23:03:47] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-10 23:03:47] CHECK: agent:main:telegram:direct:robberzaz | context: 17.4% | messages: 45
+[2026-05-10 23:03:47] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-10 23:03:47] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-10 23:05:32] === Starting compact check ===
+[2026-05-10 23:05:32] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-10 23:05:32] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-10 23:05:32] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-10 23:05:32] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-10 23:05:32] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-10 23:05:32] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-10 23:05:32] CHECK: agent:main:telegram:direct:robberzaz | context: 19.4% | messages: 55
+[2026-05-10 23:05:32] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-10 23:05:33] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-10 23:06:19] === Starting compact check ===
+[2026-05-10 23:06:20] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-10 23:06:20] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-10 23:06:20] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-10 23:06:20] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-10 23:06:20] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-10 23:06:20] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-10 23:06:20] CHECK: agent:main:telegram:direct:robberzaz | context: 20.6% | messages: 61
+[2026-05-10 23:06:20] COMPACTED: agent:main:telegram:direct:robberzaz (61 messages, backup: /home/apinan/.openclaw/agents/main/sessions/2026-05-10T14-16-23-255Z_d7bfd4f9-871b-4a92-adcb-9c206b39fdc4.jsonl.compact-20260510-230620)
+[2026-05-10 23:06:20] Summary created: /home/apinan/.openclaw/agents/main/sessions/.summaries/agent:main:telegram:direct:robberzaz.summary.txt
+[2026-05-10 23:06:20] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-10 23:06:20] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-10 23:07:04] === Starting compact check ===
+[2026-05-10 23:07:04] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-10 23:07:04] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-10 23:07:05] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-10 23:07:05] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-10 23:07:05] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-10 23:07:05] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-10 23:07:06] CHECK: agent:main:telegram:direct:robberzaz | context: 10.8% | messages: 32
+[2026-05-10 23:07:06] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-10 23:07:06] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-10 23:08:57] === Starting compact check ===
+[2026-05-10 23:08:57] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-10 23:08:58] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-10 23:08:58] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-10 23:08:58] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-10 23:08:58] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-10 23:08:58] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-10 23:08:58] CHECK: agent:main:telegram:direct:robberzaz | context: 14.0% | messages: 42
+[2026-05-10 23:08:58] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-10 23:08:58] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-10 23:08:58] PRUNED backup: 6F 1D: (999d old)
+[2026-05-10 23:08:58] PRUNED backup: ./ 06348990-c9bc-4461-baf7-514f53e48408.jsonl.compact-20260510-222204 2026-05-10T14-16-23-255Z_d7bfd4f9-871b-4a92-adcb-9c206b39fdc4.jsonl.compact-20260510-222205 2026-05-10T14-16-23-255Z_d7bfd4f9-871b-4a92-adcb-9c206b39fdc4.jsonl.compact-20260510-224932 2026-05-10T14-16-23-255Z_d7bfd4f9-871b-4a92-adcb-9c206b39fdc4.jsonl.compact-20260510-230212 2026-05-10T14-16-23-255Z_d7bfd4f9-871b-4a92-adcb-9c206b39fdc4.jsonl.compact-20260510-230620 99d957bf-4b71-4f64-8fd2-0087aecb51f4.jsonl.compact-20260510-224932 (999d old)
+[2026-05-10 23:08:59] PRUNED backup: ext: .compact-20260510-224932(2) .compact-20260510-222205(1) .compact-20260510-230212(1) .compact-20260510-230620(1) .compact-20260510-222204(1) (999d old)
+[2026-05-10 23:09:50] === Starting compact check ===
+[2026-05-10 23:09:50] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-10 23:09:50] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-10 23:09:50] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-10 23:09:50] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-10 23:09:50] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-10 23:09:51] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-10 23:09:51] CHECK: agent:main:telegram:direct:robberzaz | context: 15.8% | messages: 48
+[2026-05-10 23:09:51] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-10 23:09:51] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-10 23:09:56] === Session Status ===
+[2026-05-10 23:09:56] STATUS: agent:main:main | context: 11.0% | messages: 30
+[2026-05-10 23:09:56] STATUS: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-10 23:09:56] STATUS: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-10 23:09:56] STATUS: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-10 23:09:56] STATUS: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-10 23:09:56] STATUS: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-10 23:09:56] STATUS: agent:main:telegram:direct:robberzaz | context: 16.3% | messages: 50
+[2026-05-10 23:09:57] STATUS: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-10 23:09:57] STATUS: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-10 23:11:22] === Starting compact check ===
+[2026-05-10 23:11:22] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-10 23:11:22] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-10 23:11:22] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-10 23:11:22] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-10 23:11:23] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-10 23:11:23] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-10 23:11:23] CHECK: agent:main:telegram:direct:robberzaz | context: 18.4% | messages: 58
+[2026-05-10 23:11:23] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-10 23:11:23] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-10 23:25:58] === Starting compact check ===
+[2026-05-10 23:25:59] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-10 23:25:59] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-10 23:25:59] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-10 23:25:59] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-10 23:25:59] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-10 23:25:59] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-10 23:25:59] CHECK: agent:main:telegram:direct:robberzaz | context: 18.9% | messages: 60
+[2026-05-10 23:25:59] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-10 23:25:59] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 00:26:10] === Starting compact check ===
+[2026-05-11 00:26:10] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 00:26:11] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 00:26:11] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 00:26:11] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 00:26:11] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 00:26:11] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 00:26:11] CHECK: agent:main:telegram:direct:robberzaz | context: 26.6% | messages: 106
+[2026-05-11 00:26:11] COMPACTED: agent:main:telegram:direct:robberzaz (106 messages, backup: /home/apinan/.openclaw/agents/main/sessions/2026-05-10T14-16-23-255Z_d7bfd4f9-871b-4a92-adcb-9c206b39fdc4.jsonl.compact-20260511-002611)
+[2026-05-11 00:26:11] Summary created: /home/apinan/.openclaw/agents/main/sessions/.summaries/agent:main:telegram:direct:robberzaz.summary.txt
+[2026-05-11 00:26:11] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 00:26:11] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 01:26:00] === Starting compact check ===
+[2026-05-11 01:26:00] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 01:26:00] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 01:26:01] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 01:26:01] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 01:26:01] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 01:26:01] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 01:26:01] CHECK: agent:main:telegram:direct:robberzaz | context: 11.0% | messages: 24
+[2026-05-11 01:26:01] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 01:26:01] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 02:25:58] === Starting compact check ===
+[2026-05-11 02:25:58] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 02:25:58] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 02:25:58] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 02:25:58] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 02:25:59] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 02:25:59] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 02:25:59] CHECK: agent:main:telegram:direct:robberzaz | context: 5.1% | messages: 13
+[2026-05-11 02:25:59] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 02:26:00] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 03:26:00] === Starting compact check ===
+[2026-05-11 03:26:00] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 03:26:01] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 03:26:01] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 03:26:01] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 03:26:01] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 03:26:01] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 03:26:01] CHECK: agent:main:telegram:direct:robberzaz | context: 10.9% | messages: 45
+[2026-05-11 03:26:01] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 03:26:01] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 04:26:00] === Starting compact check ===
+[2026-05-11 04:26:00] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 04:26:00] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 04:26:00] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 04:26:01] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 04:26:01] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 04:26:01] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 04:26:01] CHECK: agent:main:telegram:direct:robberzaz | context: 10.2% | messages: 18
+[2026-05-11 04:26:01] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 04:26:01] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 05:26:02] === Starting compact check ===
+[2026-05-11 05:26:02] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 05:26:02] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 05:26:02] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 05:26:03] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 05:26:03] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 05:26:03] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 05:26:03] CHECK: agent:main:telegram:direct:robberzaz | context: 20.3% | messages: 66
+[2026-05-11 05:26:03] COMPACTED: agent:main:telegram:direct:robberzaz (66 messages, backup: /home/apinan/.openclaw/agents/main/sessions/2026-05-10T22-12-06-508Z_7376bc5d-2093-4314-930a-655e7bac000d.jsonl.compact-20260511-052603)
+[2026-05-11 05:26:03] Summary created: /home/apinan/.openclaw/agents/main/sessions/.summaries/agent:main:telegram:direct:robberzaz.summary.txt
+[2026-05-11 05:26:03] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 05:26:03] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 06:26:05] === Starting compact check ===
+[2026-05-11 06:26:05] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 06:26:05] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 06:26:05] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 06:26:05] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 06:26:06] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 06:26:06] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 06:26:06] CHECK: agent:main:telegram:direct:robberzaz | context: 28.9% | messages: 71
+[2026-05-11 06:26:06] COMPACTED: agent:main:telegram:direct:robberzaz (71 messages, backup: /home/apinan/.openclaw/agents/main/sessions/2026-05-10T22-50-52-253Z_4a80ff91-f67f-4ef4-a0de-285d73724863.jsonl.compact-20260511-062606)
+[2026-05-11 06:26:06] Summary created: /home/apinan/.openclaw/agents/main/sessions/.summaries/agent:main:telegram:direct:robberzaz.summary.txt
+[2026-05-11 06:26:06] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 06:26:06] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 09:54:08] === Starting compact check ===
+[2026-05-11 09:54:08] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 09:54:08] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 09:54:08] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 09:54:08] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 09:54:08] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 09:54:08] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 09:54:08] CHECK: agent:main:telegram:direct:robberzaz | context: 24.7% | messages: 87
+[2026-05-11 09:54:08] COMPACTED: agent:main:telegram:direct:robberzaz (87 messages, backup: /home/apinan/.openclaw/agents/main/sessions/2026-05-11T02-33-15-796Z_5360b67c-fafb-4ded-b190-b6508079d30b.jsonl.compact-20260511-095408)
+[2026-05-11 09:54:08] Summary created: /home/apinan/.openclaw/agents/main/sessions/.summaries/agent:main:telegram:direct:robberzaz.summary.txt
+[2026-05-11 09:54:08] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 09:54:08] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 09:54:09] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 09:54:09] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 09:54:09] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 09:54:09] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 09:54:09] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 09:54:18] === Starting compact check ===
+[2026-05-11 09:54:19] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 09:54:19] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 09:54:19] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 09:54:19] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 09:54:19] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 09:54:19] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 09:54:19] CHECK: agent:main:telegram:direct:robberzaz | context: 8.5% | messages: 30
+[2026-05-11 09:54:19] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 09:54:19] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 09:54:19] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 09:54:19] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 09:54:20] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 09:54:20] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 09:54:20] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 10:54:03] === Starting compact check ===
+[2026-05-11 10:54:03] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 10:54:03] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 10:54:03] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 10:54:03] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 10:54:03] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 10:54:03] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 10:54:03] CHECK: agent:main:telegram:direct:robberzaz | context: 24.2% | messages: 52
+[2026-05-11 10:54:03] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 10:54:03] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 10:54:03] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 10:54:04] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 10:54:04] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 10:54:04] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 10:54:04] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 10:54:04] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 10:54:19] === Starting compact check ===
+[2026-05-11 10:54:19] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 10:54:19] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 10:54:19] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 10:54:19] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 10:54:19] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 10:54:19] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 10:54:19] CHECK: agent:main:telegram:direct:robberzaz | context: 24.3% | messages: 53
+[2026-05-11 10:54:19] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 10:54:20] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 10:54:20] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 10:54:20] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 10:54:20] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 10:54:20] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 10:54:20] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 10:54:20] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 10:55:07] === Starting compact check ===
+[2026-05-11 10:55:07] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 10:55:08] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 10:55:08] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 10:55:08] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 10:55:08] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 10:55:08] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 10:55:08] CHECK: agent:main:telegram:direct:robberzaz | context: 33.3% | messages: 75
+[2026-05-11 10:55:08] COMPACTED: agent:main:telegram:direct:robberzaz (75 messages, backup: /home/apinan/.openclaw/agents/main/sessions/2026-05-11T03-35-43-838Z_6df6c6b3-da0c-4f8a-9185-cb82de0d1443.jsonl.compact-20260511-105508)
+[2026-05-11 10:55:08] Summary created: /home/apinan/.openclaw/agents/main/sessions/.summaries/agent:main:telegram:direct:robberzaz.summary.txt
+[2026-05-11 10:55:08] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 10:55:08] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 10:55:09] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 10:55:09] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 10:55:09] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 10:55:09] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 10:55:09] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 10:55:09] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 10:56:12] === Starting compact check ===
+[2026-05-11 10:56:12] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 10:56:12] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 10:56:12] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 10:56:12] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 10:56:12] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 10:56:12] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 10:56:12] CHECK: agent:main:telegram:direct:robberzaz | context: 22.0% | messages: 32
+[2026-05-11 10:56:12] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 10:56:13] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 10:56:13] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 10:56:13] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 10:56:13] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 10:56:13] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 10:56:13] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 10:56:13] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 10:56:22] === Starting compact check ===
+[2026-05-11 10:56:22] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 10:56:22] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 10:56:22] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 10:56:22] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 10:56:22] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 10:56:23] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 10:56:23] CHECK: agent:main:telegram:direct:robberzaz | context: 22.0% | messages: 32
+[2026-05-11 10:56:23] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 10:56:23] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 10:56:23] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 10:56:23] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 10:56:23] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 10:56:23] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 10:56:23] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 10:56:23] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 10:56:37] === Starting compact check ===
+[2026-05-11 10:56:37] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 10:56:37] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 10:56:37] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 10:56:37] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 10:56:37] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 10:56:37] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 10:56:38] CHECK: agent:main:telegram:direct:robberzaz | context: 22.2% | messages: 33
+[2026-05-11 10:56:38] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 10:56:38] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 10:56:38] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 10:56:38] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 10:56:38] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 10:56:38] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 10:56:38] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 10:56:38] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 10:57:41] === Starting compact check ===
+[2026-05-11 10:57:41] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 10:57:41] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 10:57:41] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 10:57:41] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 10:57:41] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 10:57:41] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 10:57:41] CHECK: agent:main:telegram:direct:robberzaz | context: 29.1% | messages: 49
+[2026-05-11 10:57:41] COMPACTED: agent:main:telegram:direct:robberzaz (49 messages, backup: /home/apinan/.openclaw/agents/main/sessions/2026-05-11T03-35-43-838Z_6df6c6b3-da0c-4f8a-9185-cb82de0d1443.jsonl.compact-20260511-105741)
+[2026-05-11 10:57:42] Summary created: /home/apinan/.openclaw/agents/main/sessions/.summaries/agent:main:telegram:direct:robberzaz.summary.txt
+[2026-05-11 10:57:42] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 10:57:42] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 10:57:42] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 10:57:42] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 10:57:42] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 10:57:42] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 10:57:42] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 10:57:42] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 11:54:05] === Starting compact check ===
+[2026-05-11 11:54:05] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 11:54:05] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 11:54:05] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 11:54:05] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 11:54:05] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 11:54:05] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 11:54:05] CHECK: agent:main:telegram:direct:robberzaz | context: 35.9% | messages: 47
+[2026-05-11 11:54:06] COMPACTED: agent:main:telegram:direct:robberzaz (47 messages, backup: /home/apinan/.openclaw/agents/main/sessions/2026-05-11T03-35-43-838Z_6df6c6b3-da0c-4f8a-9185-cb82de0d1443.jsonl.compact-20260511-115405)
+[2026-05-11 11:54:06] Summary created: /home/apinan/.openclaw/agents/main/sessions/.summaries/agent:main:telegram:direct:robberzaz.summary.txt
+[2026-05-11 11:54:06] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 11:54:06] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 11:54:06] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 11:54:06] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 11:54:06] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 11:54:06] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 11:54:06] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 11:54:06] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 12:54:04] === Starting compact check ===
+[2026-05-11 12:54:04] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 12:54:04] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 12:54:04] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 12:54:04] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 12:54:04] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 12:54:04] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 12:54:04] CHECK: agent:main:telegram:direct:robberzaz | context: 27.4% | messages: 30
+[2026-05-11 12:54:04] Summary created: /home/apinan/.openclaw/agents/main/sessions/.summaries/agent:main:telegram:direct:robberzaz.summary.txt
+[2026-05-11 12:54:05] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 12:54:05] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 12:54:05] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 12:54:05] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 12:54:05] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 12:54:05] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 12:54:05] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 12:54:05] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 12:54:10] === Starting compact check ===
+[2026-05-11 12:54:10] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 12:54:11] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 12:54:11] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 12:54:11] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 12:54:11] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 12:54:11] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 12:54:11] CHECK: agent:main:telegram:direct:robberzaz | context: 27.4% | messages: 30
+[2026-05-11 12:54:11] Summary created: /home/apinan/.openclaw/agents/main/sessions/.summaries/agent:main:telegram:direct:robberzaz.summary.txt
+[2026-05-11 12:54:11] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 12:54:11] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 12:54:11] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 12:54:11] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 12:54:12] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 12:54:12] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 12:54:12] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 12:54:12] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 13:54:09] === Starting compact check ===
+[2026-05-11 13:54:09] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 13:54:10] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 13:54:10] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 13:54:10] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 13:54:10] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 13:54:10] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 13:54:10] CHECK: agent:main:telegram:direct:robberzaz | context: 27.4% | messages: 30
+[2026-05-11 13:54:10] Summary created: /home/apinan/.openclaw/agents/main/sessions/.summaries/agent:main:telegram:direct:robberzaz.summary.txt
+[2026-05-11 13:54:10] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 13:54:10] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 13:54:10] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 13:54:10] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 13:54:11] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 13:54:11] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 13:54:11] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 13:54:11] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 13:54:23] === Starting compact check ===
+[2026-05-11 13:54:23] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 13:54:23] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 13:54:24] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 13:54:24] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 13:54:24] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 13:54:24] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 13:54:24] CHECK: agent:main:telegram:direct:robberzaz | context: 27.4% | messages: 30
+[2026-05-11 13:54:24] Summary created: /home/apinan/.openclaw/agents/main/sessions/.summaries/agent:main:telegram:direct:robberzaz.summary.txt
+[2026-05-11 13:54:24] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 13:54:24] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 13:54:24] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 13:54:24] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 13:54:25] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 13:54:25] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 13:54:25] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 13:54:25] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 14:54:12] === Starting compact check ===
+[2026-05-11 14:54:12] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 14:54:12] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 14:54:12] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 14:54:12] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 14:54:13] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 14:54:13] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 14:54:13] CHECK: agent:main:telegram:direct:robberzaz | context: 27.4% | messages: 30
+[2026-05-11 14:54:13] Summary created: /home/apinan/.openclaw/agents/main/sessions/.summaries/agent:main:telegram:direct:robberzaz.summary.txt
+[2026-05-11 14:54:13] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 14:54:13] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 14:54:13] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 14:54:13] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 14:54:13] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 14:54:13] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 14:54:13] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 14:54:14] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 14:54:27] === Starting compact check ===
+[2026-05-11 14:54:28] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 14:54:28] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 14:54:28] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 14:54:28] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 14:54:28] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 14:54:28] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 14:54:28] CHECK: agent:main:telegram:direct:robberzaz | context: 27.4% | messages: 30
+[2026-05-11 14:54:28] Summary created: /home/apinan/.openclaw/agents/main/sessions/.summaries/agent:main:telegram:direct:robberzaz.summary.txt
+[2026-05-11 14:54:28] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 14:54:28] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 14:54:28] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 14:54:29] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 14:54:29] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 14:54:29] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 14:54:29] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 14:54:29] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 15:54:06] === Starting compact check ===
+[2026-05-11 15:54:06] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 15:54:06] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 15:54:06] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 15:54:07] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 15:54:07] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 15:54:07] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 15:54:07] CHECK: agent:main:telegram:direct:robberzaz | context: 23.9% | messages: 29
+[2026-05-11 15:54:08] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 15:54:08] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 15:54:08] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 15:54:08] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 15:54:08] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 15:54:08] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 15:54:08] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 15:54:08] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 15:54:17] === Starting compact check ===
+[2026-05-11 15:54:17] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 15:54:17] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 15:54:17] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 15:54:17] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 15:54:17] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 15:54:17] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 15:54:17] CHECK: agent:main:telegram:direct:robberzaz | context: 24.5% | messages: 30
+[2026-05-11 15:54:18] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 15:54:18] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 15:54:18] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 15:54:18] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 15:54:18] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 15:54:18] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 15:54:18] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 15:54:18] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 15:54:21] === Starting compact check ===
+[2026-05-11 15:54:21] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 15:54:21] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 15:54:21] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 15:54:21] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 15:54:21] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 15:54:21] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 15:54:21] CHECK: agent:main:telegram:direct:robberzaz | context: 24.5% | messages: 30
+[2026-05-11 15:54:21] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 15:54:22] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 15:54:22] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 15:54:22] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 15:54:22] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 15:54:22] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 15:54:22] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 15:54:22] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 15:54:39] === Starting compact check ===
+[2026-05-11 15:54:39] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 15:54:39] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 15:54:39] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 15:54:40] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 15:54:40] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 15:54:41] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 15:54:41] CHECK: agent:main:telegram:direct:robberzaz | context: 25.2% | messages: 33
+[2026-05-11 15:54:41] COMPACTED: agent:main:telegram:direct:robberzaz (33 messages, backup: /home/apinan/.openclaw/agents/main/sessions/2026-05-11T08-35-30-037Z_0bce7d72-e570-4042-953e-68c632e17043.jsonl.compact-20260511-155441)
+[2026-05-11 15:54:41] Summary created: /home/apinan/.openclaw/agents/main/sessions/.summaries/agent:main:telegram:direct:robberzaz.summary.txt
+[2026-05-11 15:54:41] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 15:54:41] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 15:54:41] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 15:54:41] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 15:54:41] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 15:54:42] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 15:54:42] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 15:54:42] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 15:54:47] === Starting compact check ===
+[2026-05-11 15:54:47] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 15:54:47] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 15:54:47] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 15:54:47] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 15:54:48] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 15:54:48] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 15:54:48] CHECK: agent:main:telegram:direct:robberzaz | context: 24.2% | messages: 30
+[2026-05-11 15:54:48] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 15:54:48] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 15:54:48] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 15:54:48] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 15:54:49] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 15:54:49] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 15:54:49] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 15:54:49] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 15:54:53] === Starting compact check ===
+[2026-05-11 15:54:54] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 15:54:54] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 15:54:54] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 15:54:54] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 15:54:54] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 15:54:54] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 15:54:55] CHECK: agent:main:telegram:direct:robberzaz | context: 24.2% | messages: 30
+[2026-05-11 15:54:55] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 15:54:55] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 15:54:55] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 15:54:55] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 15:54:55] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 15:54:56] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 15:54:56] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 15:54:56] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 16:54:07] === Starting compact check ===
+[2026-05-11 16:54:07] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 16:54:07] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 16:54:07] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 16:54:07] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 16:54:07] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 16:54:07] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 16:54:08] CHECK: agent:main:telegram:direct:robberzaz | context: 41.9% | messages: 29
+[2026-05-11 16:54:08] Summary created: /home/apinan/.openclaw/agents/main/sessions/.summaries/agent:main:telegram:direct:robberzaz.summary.txt
+[2026-05-11 16:54:08] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 16:54:08] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 16:54:08] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 16:54:08] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 16:54:08] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 16:54:08] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 16:54:08] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 16:54:08] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 17:54:07] === Starting compact check ===
+[2026-05-11 17:54:07] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 17:54:08] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 17:54:08] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 17:54:08] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 17:54:08] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 17:54:08] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 17:54:08] CHECK: agent:main:telegram:direct:robberzaz | context: 17.5% | messages: 47
+[2026-05-11 17:54:08] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 17:54:08] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 17:54:08] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 17:54:08] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 17:54:08] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 17:54:09] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 17:54:09] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 17:54:09] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 17:54:16] === Starting compact check ===
+[2026-05-11 17:54:16] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 17:54:16] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 17:54:16] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 17:54:16] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 17:54:16] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 17:54:16] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 17:54:16] CHECK: agent:main:telegram:direct:robberzaz | context: 17.5% | messages: 47
+[2026-05-11 17:54:17] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 17:54:17] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 17:54:17] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 17:54:17] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 17:54:17] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 17:54:17] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 17:54:17] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 17:54:17] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 17:54:56] === Starting compact check ===
+[2026-05-11 17:54:56] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 17:54:56] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 17:54:56] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 17:54:56] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 17:54:56] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 17:54:56] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 17:54:57] CHECK: agent:main:telegram:direct:robberzaz | context: 17.5% | messages: 47
+[2026-05-11 17:54:57] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 17:54:57] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 17:54:57] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 17:54:57] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 17:54:57] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 17:54:57] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 17:54:57] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 17:54:57] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 17:55:29] === Starting compact check ===
+[2026-05-11 17:55:30] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 17:55:30] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 17:55:30] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 17:55:30] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 17:55:30] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 17:55:30] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 17:55:30] CHECK: agent:main:telegram:direct:robberzaz | context: 17.5% | messages: 47
+[2026-05-11 17:55:30] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 17:55:30] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 17:55:31] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 17:55:31] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 17:55:31] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 17:55:31] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 17:55:31] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 17:55:31] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 17:56:43] === Session Status ===
+[2026-05-11 17:56:43] STATUS: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 17:56:43] STATUS: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 17:56:43] STATUS: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 17:56:44] STATUS: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 17:56:44] STATUS: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 17:56:44] STATUS: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 17:56:44] STATUS: agent:main:telegram:direct:robberzaz | context: 17.7% | messages: 48
+[2026-05-11 17:56:44] STATUS: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 17:56:44] STATUS: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 17:56:44] STATUS: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 17:56:44] STATUS: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 17:56:44] STATUS: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 17:56:44] STATUS: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 17:56:45] STATUS: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 17:56:45] STATUS: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 17:57:45] === Starting compact check ===
+[2026-05-11 17:57:45] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 17:57:45] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 17:57:45] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 17:57:45] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 17:57:45] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 17:57:45] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 17:57:46] CHECK: agent:main:telegram:direct:robberzaz | context: 32.9% | messages: 68
+[2026-05-11 17:57:46] COMPACTED: agent:main:telegram:direct:robberzaz (68 messages, backup: /home/apinan/.openclaw/agents/main/sessions/2026-05-11T10-43-41-879Z_5ec50354-ba9b-462a-9001-a226eda3720c.jsonl.compact-20260511-175746)
+[2026-05-11 17:57:46] Summary created: /home/apinan/.openclaw/agents/main/sessions/.summaries/agent:main:telegram:direct:robberzaz.summary.txt
+[2026-05-11 17:57:46] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 17:57:46] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 17:57:46] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 17:57:46] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 17:57:46] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 17:57:46] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 17:57:46] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 17:57:46] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 17:59:02] === Starting compact check ===
+[2026-05-11 17:59:03] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 17:59:03] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 17:59:03] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 17:59:03] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 17:59:04] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 17:59:04] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 17:59:04] CHECK: agent:main:telegram:direct:robberzaz | context: 27.0% | messages: 46
+[2026-05-11 17:59:04] COMPACTED: agent:main:telegram:direct:robberzaz (46 messages, backup: /home/apinan/.openclaw/agents/main/sessions/2026-05-11T10-43-41-879Z_5ec50354-ba9b-462a-9001-a226eda3720c.jsonl.compact-20260511-175904)
+[2026-05-11 17:59:04] Summary created: /home/apinan/.openclaw/agents/main/sessions/.summaries/agent:main:telegram:direct:robberzaz.summary.txt
+[2026-05-11 17:59:04] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 17:59:04] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 17:59:04] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 17:59:04] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 17:59:05] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 17:59:05] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 17:59:05] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 17:59:05] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 17:59:05] After session loop, about to prune_summaries
+[2026-05-11 17:59:05] Prune summaries: 3 found
+[2026-05-11 17:59:05] After prune_summaries, about to prune_backups
+[2026-05-11 17:59:05] Prune backups called
+[2026-05-11 17:59:05] No backups found
+[2026-05-11 17:59:05] After prune_backups
+[2026-05-11 17:59:05] === Check complete: 1/15 sessions compacted ===
+[2026-05-11 17:59:43] === Starting compact check ===
+[2026-05-11 17:59:43] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 17:59:43] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 17:59:43] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 17:59:43] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 17:59:43] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 17:59:43] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 17:59:44] CHECK: agent:main:telegram:direct:robberzaz | context: 21.7% | messages: 30
+[2026-05-11 17:59:44] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 17:59:44] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 17:59:44] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 17:59:44] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 17:59:44] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 17:59:44] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 17:59:44] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 17:59:44] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 18:03:11] === Starting compact check ===
+[2026-05-11 18:03:11] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 18:03:11] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 18:03:11] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 18:03:11] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 18:03:11] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 18:03:11] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 18:03:11] CHECK: agent:main:telegram:direct:robberzaz | context: 35.4% | messages: 55
+[2026-05-11 18:03:11] COMPACTED: agent:main:telegram:direct:robberzaz (55 messages, backup: /home/apinan/.openclaw/agents/main/sessions/2026-05-11T10-43-41-879Z_5ec50354-ba9b-462a-9001-a226eda3720c.jsonl.compact-20260511-180311)
+[2026-05-11 18:03:11] Summary created: /home/apinan/.openclaw/agents/main/sessions/.summaries/agent:main:telegram:direct:robberzaz.summary.txt
+[2026-05-11 18:03:12] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 18:03:12] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 18:03:12] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 18:03:12] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 18:03:12] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 18:03:12] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 18:03:12] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 18:03:12] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 18:06:41] === Starting compact check ===
+[2026-05-11 18:06:42] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 18:06:42] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 18:06:42] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 18:06:42] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 18:06:42] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 18:06:42] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 18:06:42] CHECK: agent:main:telegram:direct:robberzaz | context: 30.4% | messages: 76
+[2026-05-11 18:06:42] COMPACTED: agent:main:telegram:direct:robberzaz (76 messages, backup: /home/apinan/.openclaw/agents/main/sessions/2026-05-11T10-43-41-879Z_5ec50354-ba9b-462a-9001-a226eda3720c.jsonl.compact-20260511-180642)
+[2026-05-11 18:06:42] Summary created: /home/apinan/.openclaw/agents/main/sessions/.summaries/agent:main:telegram:direct:robberzaz.summary.txt
+[2026-05-11 18:06:42] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 18:06:43] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 18:06:43] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 18:06:43] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 18:06:43] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 18:06:43] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 18:06:43] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 18:06:43] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 18:06:43] No backups found
+[2026-05-11 18:06:43] === Check complete: 1/15 sessions compacted ===
+[2026-05-11 18:54:08] === Starting compact check ===
+[2026-05-11 18:54:08] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 18:54:08] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 18:54:08] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 18:54:08] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 18:54:08] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 18:54:08] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 18:54:08] CHECK: agent:main:telegram:direct:robberzaz | context: 8.5% | messages: 39
+[2026-05-11 18:54:08] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 18:54:09] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 18:54:09] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 18:54:09] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 18:54:09] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 18:54:09] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 18:54:09] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 18:54:09] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 18:54:09] No backups found
+[2026-05-11 18:54:09] === Check complete: 0/15 sessions compacted ===
+[2026-05-11 19:54:21] === Starting compact check ===
+[2026-05-11 19:54:21] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 19:54:21] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 19:54:21] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 19:54:21] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 19:54:21] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 19:54:21] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 19:54:22] CHECK: agent:main:telegram:direct:robberzaz | context: 21.2% | messages: 108
+[2026-05-11 19:54:22] COMPACTED: agent:main:telegram:direct:robberzaz (108 messages, backup: /home/apinan/.openclaw/agents/main/sessions/df9aed63-2992-4a4a-a1d1-fb5b53a1b1e8.jsonl.compact-20260511-195422)
+[2026-05-11 19:54:22] Summary created: /home/apinan/.openclaw/agents/main/sessions/.summaries/agent:main:telegram:direct:robberzaz.summary.txt
+[2026-05-11 19:54:22] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 19:54:22] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 19:54:22] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 19:54:22] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 19:54:22] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 19:54:22] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 19:54:22] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 19:54:22] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 19:54:22] No backups found
+[2026-05-11 19:54:22] === Check complete: 1/15 sessions compacted ===
+[2026-05-11 20:54:17] === Starting compact check ===
+[2026-05-11 20:54:17] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 20:54:17] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 20:54:18] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 20:54:18] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 20:54:18] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 20:54:18] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 20:54:18] CHECK: agent:main:telegram:direct:robberzaz | context: 17.8% | messages: 105
+[2026-05-11 20:54:18] COMPACTED: agent:main:telegram:direct:robberzaz (105 messages, backup: /home/apinan/.openclaw/agents/main/sessions/2026-05-11T13-39-29-585Z_6f9b1940-96b4-423a-ac68-faaf61f17ab3.jsonl.compact-20260511-205418)
+[2026-05-11 20:54:18] Summary created: /home/apinan/.openclaw/agents/main/sessions/.summaries/agent:main:telegram:direct:robberzaz.summary.txt
+[2026-05-11 20:54:18] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 20:54:18] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 20:54:18] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 20:54:18] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 20:54:19] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 20:54:19] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 20:54:19] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 20:54:19] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 20:54:19] No backups found
+[2026-05-11 20:54:19] === Check complete: 1/15 sessions compacted ===
+[2026-05-11 22:13:04] === Starting compact check ===
+[2026-05-11 22:13:04] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 22:13:05] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 22:13:05] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 22:13:05] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 22:13:05] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 22:13:05] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 22:13:05] CHECK: agent:main:telegram:direct:robberzaz | context: 8.7% | messages: 22
+[2026-05-11 22:13:05] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 22:13:05] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 22:13:05] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 22:13:05] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 22:13:06] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 22:13:06] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 22:13:06] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 22:13:06] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 22:13:06] No backups found
+[2026-05-11 22:13:06] === Check complete: 0/15 sessions compacted ===
+[2026-05-11 22:54:11] === Starting compact check ===
+[2026-05-11 22:54:11] CHECK: agent:main:main | context: 11.0% | messages: 30
+[2026-05-11 22:54:12] CHECK: agent:main:telegram:direct:1060942816 | context: 5.9% | messages: 19
+[2026-05-11 22:54:12] CHECK: agent:main:telegram:default:direct:1060942816 | context: 5.0% | messages: 18
+[2026-05-11 22:54:12] CHECK: agent:main:subagent:eb1f11d8-6f72-4b1f-9c0f-7d98acb47012 | context: 0.5% | messages: 5
+[2026-05-11 22:54:12] CHECK: agent:main:subagent:dcb89a04-a2fe-48c7-9a2f-8a6c3c589e47 | context: 7.0% | messages: 29
+[2026-05-11 22:54:12] CHECK: agent:main:discord:direct:817750913405157406 | context: 9.3% | messages: 30
+[2026-05-11 22:54:13] CHECK: agent:main:telegram:direct:robberzaz | context: 16.7% | messages: 48
+[2026-05-11 22:54:13] CHECK: agent:main:discord:direct:robberzaz | context: 2.0% | messages: 15
+[2026-05-11 22:54:13] CHECK: agent:main:cron:417c3a9c-2be6-42e9-9174-93292a30041d | context: 1.2% | messages: 10
+[2026-05-11 22:54:13] CHECK: agent:main:subagent:e0a3b0ab-aafa-4f50-90a7-d2ee153ca129 | context: 2.0% | messages: 8
+[2026-05-11 22:54:13] CHECK: agent:main:subagent:a7381bde-5dc7-4aa8-9832-d3eeec3d7619 | context: 4.7% | messages: 11
+[2026-05-11 22:54:13] CHECK: agent:main:subagent:0b43884d-7cba-411a-b4e8-8580d9445399 | context: 2.7% | messages: 6
+[2026-05-11 22:54:13] CHECK: agent:main:subagent:feabb2fb-1ac4-4ab7-908d-b19910e91198 | context: 0.8% | messages: 4
+[2026-05-11 22:54:13] CHECK: agent:main:subagent:c4ccf47e-eb83-4769-8e84-4d25f74e9a2c | context: 2.0% | messages: 14
+[2026-05-11 22:54:13] CHECK: agent:main:subagent:0d225045-97a8-44b8-a10c-cdf9b455e4e4 | context: 10.1% | messages: 15
+[2026-05-11 22:54:13] No backups found
+[2026-05-11 22:54:13] === Check complete: 0/15 sessions compacted ===

@@ -1,0 +1,20 @@
+Session: agent:main:discord:direct:817750913405157406
+File: /home/apinan/.openclaw/agents/main/sessions/99d957bf-4b71-4f64-8fd2-0087aecb51f4.jsonl
+Size: 74535 bytes
+Total messages: 15
+First user: [Bridge] Starting Telegram <-> Discord bridge...
+[Bridge] Discord DM channel: 1501849094589779978
+[B
+Last user: Service: systemd user (enabled)
+File logs: /tmp/openclaw/openclaw-2026-05-07.log
+Command: /home/apin
+Last assistant: May 07 14:56:45 DESKTOP-F1PJT4S node[902687]: 2026-05-07T14:56:45.979+07:00 [telegram] [diag] rebuil
+Summary created: 2026-05-10T22:49:32.188439
+Last 3 user messages:
+  [toolResult] Service: systemd user (enabled)
+File logs: /tmp/openclaw/openclaw-2026-05-07.log
+Command: /home/apin
+  [toolResult] May 07 14:56:45 DESKTOP-F1PJT4S node[902687]: 2026-05-07T14:56:45.979+07:00 [telegram] [diag] rebuil
+  [toolResult] Service: systemd user (enabled)
+File logs: /tmp/openclaw/openclaw-2026-05-07.log
+Command: /home/apin

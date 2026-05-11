@@ -1,0 +1,18 @@
+Session: agent:main:main
+File: /home/apinan/.openclaw/agents/main/sessions/06348990-c9bc-4461-baf7-514f53e48408.jsonl
+Size: 87962 bytes
+Total messages: 24
+First user: 🧑🏼‍💻 ปรับแล้วครับเจ้านาย ✅
+
+สถานะตอนนี้:
+- Discord **connected / works**
+- Bot: `@Openclaw`
+- DM เปิ
+Last user: HEARTBEAT_OK
+Last assistant: HEARTBEAT_OK
+Summary created: 2026-05-10T22:22:04.905304
+Last 3 user messages:
+  [toolResult] No session found for mild-shore
+  [toolResult] Gateway reachable.
+Gateway event loop degraded: reasons=event_loop_utilization,cpu eventLoopDelayMax
+  [assistant] HEARTBEAT_OK
