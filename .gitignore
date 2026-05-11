@@ -1,21 +1,12 @@
-# OpenClaw Workspace Git Ignore
-MODEL_FORMAT_LOCK.md
-backup/
-*.backup
-recovery/
-format-lock/
-.openclaw/
-logs/
+# Minimal ignores for full system visibility in OwenGPT
 node_modules/
-*.log
+logs/
 .DS_Store
-tmp/
-temp/
 *.tmp
 *.bak
-secrets.txt
-.env
-auth.json
 *.session
 *.token
-credentials/
+temp/
+.openclaw/bin/
+.openclaw/cache/
+.openclaw/node/

@@ -1,0 +1,253 @@
+'\\wsl.localhost\Ubuntu\home\apinan\.openclaw\workspace'
+CMD.EXE was started with the above path as the current directory.
+UNC paths are not supported.  Defaulting to Windows directory.
+setup plugin alembic.autogenerate.schemas
+setup plugin alembic.autogenerate.tables
+setup plugin alembic.autogenerate.types
+setup plugin alembic.autogenerate.constraints
+setup plugin alembic.autogenerate.defaults
+setup plugin alembic.autogenerate.comments
+Adding extra search path checkpoints D:\AI_Models_Shared\checkpoints
+Adding extra search path loras D:\AI_Models_Shared\loras
+Adding extra search path controlnet D:\AI_Models_Shared\controlnet
+Adding extra search path vae D:\AI_Models_Shared\vae
+Adding extra search path upscale_models D:\AI_Models_Shared\upscale_models
+Adding extra search path embeddings D:\AI_Models_Shared\embeddings
+Adding extra search path hypernetworks D:\AI_Models_Shared\hypernetworks
+Adding extra search path clip D:\AI_Models_Shared\clip
+Adding extra search path text_encoders D:\AI_Models_Shared\text_encoders
+Adding extra search path diffusion_models D:\AI_Models_Shared\diffusion_models
+Adding extra search path unet D:\AI_Models_Shared\unet
+Adding extra search path clip_vision D:\AI_Models_Shared\clip_vision
+Adding extra search path configs D:\AI_Models_Shared\configs
+Adding extra search path gligen D:\AI_Models_Shared\gligen
+Adding extra search path ipadapter D:\AI_Models_Shared\ipadapter
+
+Prestartup times for custom nodes:
+   0.0 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\rgthree-comfy
+   0.0 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\ComfyUI-Easy-Use
+   0.0 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\ComfyUI-Trellis2-GGUF
+   5.0 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\comfyui-manager
+
+WARNING: You need pytorch with cu130 or higher to use optimized CUDA operations.
+Found comfy_kitchen backend cuda: {'available': True, 'disabled': True, 'unavailable_reason': None, 'capabilities': ['apply_rope', 'apply_rope1', 'dequantize_nvfp4', 'dequantize_per_tensor_fp8', 'quantize_mxfp8', 'quantize_nvfp4', 'quantize_per_tensor_fp8']}
+Found comfy_kitchen backend triton: {'available': True, 'disabled': True, 'unavailable_reason': None, 'capabilities': ['apply_rope', 'apply_rope1', 'dequantize_nvfp4', 'dequantize_per_tensor_fp8', 'quantize_mxfp8', 'quantize_nvfp4', 'quantize_per_tensor_fp8']}
+Found comfy_kitchen backend eager: {'available': True, 'disabled': False, 'unavailable_reason': None, 'capabilities': ['apply_rope', 'apply_rope1', 'dequantize_mxfp8', 'dequantize_nvfp4', 'dequantize_per_tensor_fp8', 'quantize_mxfp8', 'quantize_nvfp4', 'quantize_per_tensor_fp8', 'scaled_mm_mxfp8', 'scaled_mm_nvfp4']}
+Checkpoint files will always be loaded safely.
+Total VRAM 16379 MB, total RAM 49103 MB
+pytorch version: 2.8.0+cu128
+Set vram state to: NORMAL_VRAM
+Device: cuda:0 NVIDIA GeForce RTX 4060 Ti : cudaMallocAsync
+Using async weight offloading with 2 streams
+Enabled pinned memory 19641.0
+Using pytorch attention
+aimdo: src-win/cuda-detour.c:77:INFO:aimdo_setup_hooks: found driver at 00007FFDA02D0000, installing 4 hooks
+aimdo: src-win/cuda-detour.c:61:DEBUG:install_hook_entrys: hooks successfully installed
+aimdo: src/control.c:69:INFO:comfy-aimdo inited for GPU: NVIDIA GeForce RTX 4060 Ti (VRAM: 16379 MB)
+DynamicVRAM support detected and enabled
+Python version: 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]
+ComfyUI version: 0.20.1
+comfy-aimdo version: 0.2.14
+comfy-kitchen version: 0.2.8
+ComfyUI frontend version: 1.42.15
+[Prompt Server] web root: D:\ComfyUI-Easy-Install\python_embeded\Lib\site-packages\comfyui_frontend_package\static
+Asset seeder disabled
+Traceback (most recent call last):
+  File "D:\ComfyUI-Easy-Install\ComfyUI\nodes.py", line 2212, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\ComfyUI-3D-Pack\__init__.py", line 4, in <module>
+    from pyhocon import ConfigFactory
+ModuleNotFoundError: No module named 'pyhocon'
+
+Cannot import D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\ComfyUI-3D-Pack module for custom nodes: No module named 'pyhocon'
+Traceback (most recent call last):
+  File "D:\ComfyUI-Easy-Install\ComfyUI\nodes.py", line 2212, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\ComfyUI-Blip\__init__.py", line 7, in <module>
+    from .TextTranslator import NODE_CLASS_MAPPINGS as TRANSLATOR_NODE_CLASS_MAPPINGS
+ModuleNotFoundError: No module named 'D:\\ComfyUI-Easy-Install\\ComfyUI\\custom_nodes\\ComfyUI-Blip.TextTranslator'
+
+Cannot import D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\ComfyUI-Blip module for custom nodes: No module named 'D:\\ComfyUI-Easy-Install\\ComfyUI\\custom_nodes\\ComfyUI-Blip.TextTranslator'
+Traceback (most recent call last):
+  File "D:\ComfyUI-Easy-Install\ComfyUI\nodes.py", line 2212, in load_custom_node
+    module_spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1132, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1190, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\ComfyUI-Easy-Install\\ComfyUI\\custom_nodes\\ComfyUI-F5-TTS-TH\\__init__.py'
+
+Cannot import D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\ComfyUI-F5-TTS-TH module for custom nodes: [Errno 2] No such file or directory: 'D:\\ComfyUI-Easy-Install\\ComfyUI\\custom_nodes\\ComfyUI-F5-TTS-TH\\__init__.py'
+[FishAudioS2] Models folder registered: D:\ComfyUI-Easy-Install\ComfyUI\models\fishaudioS2
+[FishAudioS2] Registered 4 nodes (v0.5.3): Fish S2 TTS, Fish S2 Voice Clone TTS, Fish S2 Multi-Speaker TTS, Fish S2 Multi-Speaker Split TTS
+ComfyUI-GGUF: Allowing full torch compile
+### Loading: ComfyUI-Manager (V3.40)
+[ComfyUI-Manager] network_mode: public
+[ComfyUI-Manager] ComfyUI per-queue preview override detected (PR #11261). Manager's preview method feature is disabled. Use ComfyUI's --preview-method CLI option or 'Settings > Execution > Live preview method'.
+### ComfyUI Version: v0.20.1-31-g3e3ed8cc | Released on '2026-05-01'
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/github-stats.json
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+D:\ComfyUI-Easy-Install\python_embeded\Lib\site-packages\timm\models\layers\__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+ComfyUI-GGUF: Allowing full torch compile
+[Trellis2] Using native ComfyUI-GGUF support (ops/dequant/loader)
+Warning: Could not load sageattention: No module named 'sageattention'
+sageattention package is not installed, sageattention will not be available
+[36;20m[D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\comfyui_controlnet_aux] | INFO -> Using ckpts path: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\comfyui_controlnet_aux\ckpts[0m
+[36;20m[D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\comfyui_controlnet_aux] | INFO -> Using symlinks: False[0m
+[36;20m[D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\comfyui_controlnet_aux] | INFO -> Using ort providers: ['CUDAExecutionProvider', 'DirectMLExecutionProvider', 'OpenVINOExecutionProvider', 'ROCMExecutionProvider', 'CPUExecutionProvider', 'CoreMLExecutionProvider'][0m
+D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\comfyui_controlnet_aux\node_wrappers\dwpose.py:26: UserWarning: DWPose: Onnxruntime not found or doesn't come with acceleration providers, switch to OpenCV with CPU device. DWPose might run very slowly
+  warnings.warn("DWPose: Onnxruntime not found or doesn't come with acceleration providers, switch to OpenCV with CPU device. DWPose might run very slowly")
+'sox' is not recognized as an internal or external command,
+operable program or batch file.
+SoX could not be found!
+
+    If you do not have SoX, proceed here:
+     - - - http://sox.sourceforge.net/ - - -
+
+    If you do (or think that you should) have SoX, double-check your
+    path variables.
+    
+Traceback (most recent call last):
+  File "D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\qwen3-tts-comfyui\nodes.py", line 90, in <module>
+    import qwen_tts
+  File "D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\qwen3-tts-comfyui\qwen_tts\__init__.py", line 21, in <module>
+    from .inference.qwen3_tts_model import Qwen3TTSModel, VoiceClonePromptItem
+  File "D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\qwen3-tts-comfyui\qwen_tts\inference\qwen3_tts_model.py", line 29, in <module>
+    from ..core.models import Qwen3TTSConfig, Qwen3TTSForConditionalGeneration, Qwen3TTSProcessor
+  File "D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\qwen3-tts-comfyui\qwen_tts\core\__init__.py", line 19, in <module>
+    from .tokenizer_12hz.modeling_qwen3_tts_tokenizer_v2 import Qwen3TTSTokenizerV2Model
+  File "D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\qwen3-tts-comfyui\qwen_tts\core\tokenizer_12hz\modeling_qwen3_tts_tokenizer_v2.py", line 60, in <module>
+    from transformers.utils.generic import check_model_inputs
+ImportError: cannot import name 'check_model_inputs' from 'transformers.utils.generic' (D:\ComfyUI-Easy-Install\python_embeded\Lib\site-packages\transformers\utils\generic.py)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\qwen3-tts-comfyui\nodes.py", line 96, in <module>
+    from qwen_tts import Qwen3TTSModel, VoiceClonePromptItem
+  File "D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\qwen3-tts-comfyui\qwen_tts\__init__.py", line 21, in <module>
+    from .inference.qwen3_tts_model import Qwen3TTSModel, VoiceClonePromptItem
+  File "D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\qwen3-tts-comfyui\qwen_tts\inference\qwen3_tts_model.py", line 29, in <module>
+    from ..core.models import Qwen3TTSConfig, Qwen3TTSForConditionalGeneration, Qwen3TTSProcessor
+  File "D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\qwen3-tts-comfyui\qwen_tts\core\__init__.py", line 19, in <module>
+    from .tokenizer_12hz.modeling_qwen3_tts_tokenizer_v2 import Qwen3TTSTokenizerV2Model
+  File "D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\qwen3-tts-comfyui\qwen_tts\core\tokenizer_12hz\modeling_qwen3_tts_tokenizer_v2.py", line 60, in <module>
+    from transformers.utils.generic import check_model_inputs
+ImportError: cannot import name 'check_model_inputs' from 'transformers.utils.generic' (D:\ComfyUI-Easy-Install\python_embeded\Lib\site-packages\transformers\utils\generic.py)
+
+Import times for custom nodes:
+   0.0 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\websocket_image_save.py
+   0.0 seconds (IMPORT FAILED): D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\ComfyUI-F5-TTS-TH
+   0.0 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\ComfyUI-BRIA_AI-RMBG
+   0.0 seconds (IMPORT FAILED): D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\ComfyUI-3D-Pack
+   0.0 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\comfyui-inpaint-cropandstitch
+   0.0 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\ComfyUI-SCAIL-Pose
+   0.0 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\ComfyUI-TiledDiffusion
+   0.0 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\ComfyUI-GGUF
+   0.0 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\AuraSR-ComfyUI
+   0.0 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\ComfyUI-WanAnimatePreprocess
+   0.0 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\ComfyUI-MelBandRoFormer
+   0.0 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\controlaltai-nodes
+   0.0 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\ComfyUI-Pixaroma
+   0.0 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\rgthree-comfy
+   0.0 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\ComfyUI-Trellis2-GGUF
+   0.0 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\comfyui-kjnodes
+   0.1 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\comfyui_controlnet_aux
+   0.1 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\ComfyUI-QwenVL
+   0.1 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\comfyui-videohelpersuite
+   0.2 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\comfyui_layerstyle
+   0.3 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\qwen3-tts-comfyui
+   0.3 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\comfyui-easy-sam3
+   0.4 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\seedvr2_videoupscaler
+   0.5 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\comfyui-logicutils
+   0.5 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\comfyui-itools
+   0.5 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\ComfyUI-WanVideoWrapper
+   0.7 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\ComfyUI-fish-audio-s2
+   0.7 seconds (IMPORT FAILED): D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\ComfyUI-Blip
+   0.8 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\ComfyUI-Trellis2
+   0.9 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\comfyui-manager
+   1.6 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\was-ns
+   1.6 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\comfyui-rmbg
+   5.6 seconds: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\ComfyUI-Easy-Use
+
+Context impl SQLiteImpl.
+Will assume non-transactional DDL.
+Failed to initialize database. Please ensure you have installed the latest requirements. If the error persists, please report this as in future the database will be required: Could not acquire lock on database 'D:\ComfyUI-Easy-Install\ComfyUI\user\comfyui.db'. Another ComfyUI process may already be using it. Use --database-url to specify a separate database file.
+Starting server
+
+[START] Security scan
+[DONE] Security scan
+[ComfyUI-Manager] Logging failed: [WinError 32] The process cannot access the file because it is being used by another process: 'D:\\ComfyUI-Easy-Install\\ComfyUI\\user\\comfyui_8188.log' -> 'D:\\ComfyUI-Easy-Install\\ComfyUI\\user\\comfyui_8188.prev.log'
+## ComfyUI-Manager: installing dependencies done.
+** ComfyUI startup time: 2026-05-07 17:57:04.128
+** Platform: Windows
+** Python version: 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]
+** Python executable: D:\ComfyUI-Easy-Install\python_embeded\python.exe
+** ComfyUI Path: D:\ComfyUI-Easy-Install\ComfyUI
+** ComfyUI Base Folder Path: D:\ComfyUI-Easy-Install\ComfyUI
+** User directory: D:\ComfyUI-Easy-Install\ComfyUI\user
+** ComfyUI-Manager config path: D:\ComfyUI-Easy-Install\ComfyUI\user\__manager\config.ini
+** Log path: D:\ComfyUI-Easy-Install\ComfyUI\user\comfyui.log
+[34m[ComfyUI-Easy-Use] server: [0mv1.3.7 [92mLoaded[0m
+[34m[ComfyUI-Easy-Use] web root: [0mD:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\ComfyUI-Easy-Use\web_version/v2 [92mLoaded[0m
+[38;2;246;103;68m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
+  [1;37mPixaroma[0m v1.3.4  |  [38;2;246;103;68m12 nodes[0m Loaded
+  [0;37mComfyUI Tutorials: https://www.youtube.com/@pixaroma[0m
+  [38;2;246;103;68mSome Pixaroma nodes conflict with Nodes 2.0 — consider turning it off from ComfyUI Menu.[0m
+[38;2;246;103;68m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
+[34m[ComfyUI-RMBG][0m v[93m3.0.0[0m | [93m43 nodes[0m [92mLoaded[0m
+[SPARSE] Conv backend: flex_gemm; Attention backend: flash_attn
+[ATTENTION] Using backend: flash_attn
+[SPARSE] Conv backend: flex_gemm; Attention backend: flash_attn
+
+[32mInitializing ControlAltAI Nodes[0m
+
+❌ [Qwen3-TTS] Critical Import Error: cannot import name 'check_model_inputs' from 'transformers.utils.generic' (D:\ComfyUI-Easy-Install\python_embeded\Lib\site-packages\transformers\utils\generic.py)
+   Traceback for debugging:
+
+   Common fix: run 'pip install -r requirements.txt' in your ComfyUI environment.
+Training node missing dependencies: cannot import name 'check_model_inputs' from 'transformers.utils.generic' (D:\ComfyUI-Easy-Install\python_embeded\Lib\site-packages\transformers\utils\generic.py)
+✅ ComfyUI-Qwen-TTS v1.0.7 loaded
+
+[92m[rgthree-comfy] Loaded 48 magnificent nodes. 🎉[0m
+
+[33m[rgthree-comfy] ComfyUI's new Node 2.0 rendering may be incompatible with some rgthree-comfy nodes and features, breaking some rendering as well as losing the ability to access a node's properties (a vital part of many nodes). It also appears to run MUCH more slowly spiking CPU usage and causing jankiness and unresponsiveness, especially with large workflows. Personally I am not planning to use the new Nodes 2.0 and, unfortunately, am not able to invest the time to investigate and overhaul rgthree-comfy where needed. If you have issues when Nodes 2.0 is enabled, I'd urge you to switch it off as well and join me in hoping ComfyUI is not planning to deprecate the existing, stable canvas rendering all together.
+[0m
+⚡ SeedVR2 optimizations check: SageAttention ❌ | Flash Attention ✅ | Triton ✅
+💡 Optional: pip install sageattention
+📊 Initial CUDA memory: 14.82GB free / 16.00GB total
+[34mWAS Node Suite: [0mOpenCV Python FFMPEG support is enabled[0m
+[34mWAS Node Suite [93mWarning: [0m`ffmpeg_bin_path` is not Traceback (most recent call last):
+set in `D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\was-ns\was_suite_config.json` config file. Will attempt to use system ffmpeg binaries if available.[0m
+FETCH ComfyRegistry Data: 5/144
+[34mWAS Node Suite: [0mFinished.[0m [32mLoaded[0m [0m220[0m [32mnodes successfully.[0m
+
+	[3m[93m"The harder I work, the luckier I get."[0m[3m - Samuel Goldwyn[0m
+
+  File "D:\ComfyUI-Easy-Install\ComfyUI\main.py", line 526, in <module>
+    event_loop.run_until_complete(x)
+  File "asyncio\base_events.py", line 691, in run_until_complete
+  File "D:\ComfyUI-Easy-Install\ComfyUI\main.py", line 500, in start_all
+    await run(prompt_server, address=args.listen, port=args.port, verbose=not args.dont_print_server, call_on_start=call_on_start)
+  File "D:\ComfyUI-Easy-Install\ComfyUI\main.py", line 372, in run
+    await asyncio.gather(
+  File "D:\ComfyUI-Easy-Install\ComfyUI\server.py", line 1248, in start_multi_address
+    await site.start()
+  File "D:\ComfyUI-Easy-Install\python_embeded\Lib\site-packages\aiohttp\web_runner.py", line 121, in start
+    self._server = await loop.create_server(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncio\base_events.py", line 1584, in create_server
+OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 8188): [winerror 10048] only one usage of each socket address (protocol/network address/port) is normally permitted
+Cannot connect to comfyregistry.
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json[ComfyUI-Manager] Due to a network error, switching to local mode.
+=> custom-node-list.json
+=> cannot schedule new futures after shutdown
+[ComfyUI-Manager] All startup tasks have been completed.
+FETCH DATA from: D:\ComfyUI-Easy-Install\ComfyUI\custom_nodes\comfyui-manager\custom-node-list.json [DONE]

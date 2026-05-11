@@ -12,7 +12,8 @@
 - เมื่อต้องการแตกงานใหญ่เป็นขั้นตอน (Task Decomposition) ในระดับสูง
 
 ## ขั้นตอนการทำงาน
-1. **เตรียมสภาพแวดล้อม:**
+1. **เตรียมสภาพแวดล้อม และ Sync ข้อมูล:**
+   - ใช้ `exec` รัน `/mnt/c/Users/Apinan/owen-workspace/scripts/sync_to_git.sh` เพื่อให้ข้อมูลบน GitHub ล่าสุดที่สุด
    - ใช้ `exec` รัน curl เพื่อเปิด AdsPower (Profile `k1cawerp`) พร้อมพารามิเตอร์ `&headless=1`
    - ตัวอย่าง: `curl -s "http://127.0.0.1:50325/api/v1/browser/start?user_id=k1cawerp&api_key=[API_KEY]&headless=1"`
 2. **ดึงข้อมูลเชื่อมต่อ:**
