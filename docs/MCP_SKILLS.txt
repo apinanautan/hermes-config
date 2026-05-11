@@ -1,0 +1,84 @@
+# OpenClaw MCP & Skills - Complete Reference
+
+## MCP Servers (ทำงานแล้วตอนนี้)
+
+### 1. socraticode
+- Command: `npx -y socraticode`
+- Description: สกิลวิเคราะห์โค้ดหลัก ต้องใช้ก่อนแก้ไขโค้ดทุกครั้ง
+- ต้อง load SKILL.md ก่อน: `~/.openclaw/plugin-skills/socraticode-code/SKILL.md`
+
+### 2. puppeteer
+- Command: `npx -y @kirkdeam/puppeteer-mcp-server`
+- Description: Browser automation ควบคุม Chrome ผ่าน CDP
+
+### 3. sequential-thinking
+- Command: `/home/apinan/.openclaw/mcp-node/node_modules/.bin/mcp-server-sequential-thinking`
+- Description: แตกงานซับซ้อนเป็นข้อๆ วางแผนก่อนลงมือ
+
+### 4. filesystem
+- Command: `/home/apinan/.openclaw/mcp-node/node_modules/.bin/mcp-server-filesystem`
+- Allowed dirs:
+  - `/home/apinan/.openclaw/workspace`
+  - `/mnt/c/Users/[ถามรหัสจากเจ้านายเมื่อจำเป็น]/Downloads`
+  - `/mnt/c/Users/[ถามรหัสจากเจ้านายเมื่อจำเป็น]/Pictures`
+- Description: อ่าน/เขียน/ค้นหาไฟล์ในเครื่อง
+
+### 5. ollama
+- Command: `/home/apinan/.openclaw/mcp-node/node_modules/.bin/ollama-mcp-server`
+- Env: `OLLAMA_HOST=http://127.0.0.1:11434`
+- Description: รันโมเดล local (Hermes 3, nomic-embed-text)
+- ใช้สำหรับ: Data offloading, วิเคราะห์ไฟล์/โค้ดแทนโมเดลหลัก
+
+---
+
+## Plugin Skills (Custom Skills)
+
+| Skill | Path | Purpose |
+|-------|------|---------|
+| browser-automation | `~/.openclaw/plugin-skills/browser-automation/SKILL.md` | Browser control, multi-step flows, login |
+| create-face-portrait | `~/.openclaw/plugin-skills/create-face-portrait/SKILL.md` | สร้างรูปหน้าผ่าน ComfyUI |
+| hermes-permission | `~/.openclaw/plugin-skills/hermes-permission/SKILL.md` | ขออนุญาตก่อนแตะ Hermes ทุกครั้ง |
+| socraticode-code | `~/.openclaw/plugin-skills/socraticode-code/SKILL.md` | สกิลวิเคราะห์โค้ดหลัก |
+| telegram-discord-relay | `~/.openclaw/plugin-skills/telegram-discord-relay/SKILL.md` | Relay ข้อความ Telegram → Discord |
+| ufo-gpt-image-gen | `~/.openclaw/plugin-skills/ufo-gpt-image-gen/SKILL.md` | สร้างรูปผ่าน ChatGPT Custom GPT |
+| ufo-windows-automation | `~/.openclaw/plugin-skills/ufo-windows-automation/SKILL.md` | Windows GUI automation ผ่าน UFO |
+
+---
+
+## Workspace Files
+
+- `/home/apinan/.openclaw/workspace/SOUL.md` - บุคลิกภาพ/กฎหลัก
+- `/home/apinan/.openclaw/workspace/AGENTS.md` - การทำงาน/ขั้นตอน
+- `/home/apinan/.openclaw/workspace/MEMORY.md` - ความจำระยะยาว + Protocol
+- `/home/apinan/.openclaw/workspace/USER.md` - ข้อมูลเจ้านาย
+- `/home/apinan/.openclaw/workspace/IDENTITY.md` - ตัวตน
+- `/home/apinan/.openclaw/workspace/TOOLS.md` - ข้อมูล local tools
+- `/home/apinan/.openclaw/workspace/HEARTBEAT.md` - งาน periodic
+
+---
+
+## OpenClaw Tools (Native - ไม่ใช่ MCP)
+
+- exec: รัน shell command
+- read/read_text_file: อ่านไฟล์
+- write/edit: เขียน/แก้ไฟล์
+- filesystem__* : จัดการไฟล์ (MCP)
+- image: วิเคราะห์/สร้างรูป
+- web_search/web_fetch: ค้นหาเว็บ
+- cron: ตั้งเวลางาน
+- sessions_* : จัดการ session/sub-agent
+- subagents: สั่งงาน sub-agent
+- ollama__* : รันโมเดล local
+- socraticode__* : วิเคราะห์โค้ด
+- puppeteer__* : browser automation
+- memory_* : ค้นหาความจำ
+
+---
+
+## Config Files
+
+- `~/.openclaw/openclaw.json` - main config
+- `~/.openclaw/agents/main/` - agent sessions
+- `~/.openclaw/plugin-skills/` - custom skills
+- `~/.openclaw/mcp-node/` - MCP node modules
+- `~/.hermes/memories/MEMORY.md` - Hermes long-term memory

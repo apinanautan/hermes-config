@@ -1,0 +1,214 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-10T11:34:39.846Z",
+  "entries": {
+    "memory:memory/2026-05-07.md:1:11": {
+      "key": "memory:memory/2026-05-07.md:1:11",
+      "path": "memory/2026-05-07.md",
+      "startLine": 1,
+      "endLine": 11,
+      "source": "memory",
+      "snippet": "## Hermes gateway shutdown loop fix - เจ้านายอนุญาตให้ตรวจ/แก้ Hermes หลังเจอข้อความ `Gateway shutting down — Your current task will be interrupted` วน - พบ 2 สาเหตุจาก journal: 1. มีคำสั่งจากภายใน Hermes เองสั่ง `systemctl --user restart hermes-gateway` / `pkill ... gateway` หลายครั้ง ทำให้งานที่กำลังตอบถูกตัด 2. `hermes-gateway-comfyui.service` เปิด `Restart=always` แต่ profile `comfyui-bot` ไม่มี จึง fail แล้ว auto-restart ทุก 5 นาที (restart counter 95) - แก้โดยปิด service ที่เสีย: `systemctl --user disable --now hermes-gateway-comfyui.service` - ตรวจแล้ว Hermes หลัก `hermes-gateway.service` ยัง active/running และ health endpoint `http://127.0.0.1:8642/health` ตอบ `{\"status\":\"ok\",\"p",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1.9527245058020262,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-07T07:52:13.035Z",
+      "lastRecalledAt": "2026-05-07T10:39:34.634Z",
+      "queryHashes": [
+        "473dfe2b5bf5",
+        "d0dfc8cc3a23"
+      ],
+      "recallDays": [
+        "2026-05-07"
+      ],
+      "conceptTags": [
+        "gateway",
+        "ตรวจ/แก",
+        "hermes-gateway",
+        "hermes-gateway-comfyui.service",
+        "comfyui-bot",
+        "auto-restart",
+        "hermes-gateway.service",
+        "active/running"
+      ]
+    },
+    "memory:memory/2026-05-07.md:1:13": {
+      "key": "memory:memory/2026-05-07.md:1:13",
+      "path": "memory/2026-05-07.md",
+      "startLine": 1,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "## Hermes gateway shutdown loop fix - เจ้านายอนุญาตให้ตรวจ/แก้ Hermes หลังเจอข้อความ `Gateway shutting down — Your current task will be interrupted` วน - พบ 2 สาเหตุจาก journal: 1. มีคำสั่งจากภายใน Hermes เองสั่ง `systemctl --user restart hermes-gateway` / `pkill ... gateway` หลายครั้ง ทำให้งานที่กำลังตอบถูกตัด 2. `hermes-gateway-comfyui.service` เปิด `Restart=always` แต่ profile `comfyui-bot` ไม่มี จึง fail แล้ว auto-restart ทุก 5 นาที (restart counter 95) - แก้โดยปิด service ที่เสีย: `systemctl --user disable --now hermes-gateway-comfyui.service` - ตรวจแล้ว Hermes หลัก `hermes-gateway.service` ยัง active/running และ health endpoint `http://127.0.0.1:8642/health` ตอบ `{\"status\":\"ok\",\"p",
+      "recallCount": 6,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 6,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-07T12:04:30.686Z",
+      "lastRecalledAt": "2026-05-07T23:48:18.801Z",
+      "queryHashes": [
+        "973e363480cd",
+        "319b16ae3489",
+        "9bb673256a30",
+        "5bb17019e62c",
+        "6b32806a7d47",
+        "96636b70ab57"
+      ],
+      "recallDays": [
+        "2026-05-07",
+        "2026-05-08"
+      ],
+      "conceptTags": [
+        "gateway",
+        "ตรวจ/แก",
+        "hermes-gateway",
+        "hermes-gateway-comfyui.service",
+        "comfyui-bot",
+        "auto-restart",
+        "hermes-gateway.service",
+        "active/running"
+      ]
+    },
+    "memory:memory/2026-05-07.md:10:18": {
+      "key": "memory:memory/2026-05-07.md:10:18",
+      "path": "memory/2026-05-07.md",
+      "startLine": 10,
+      "endLine": 18,
+      "source": "memory",
+      "snippet": "- แก้ถาวรโดย backup `~/.hermes/config.yaml`, ลบ allowlist ที่อนุญาตคำสั่ง restart/kill Hermes gateway ออกจาก `command_allowlist`, ตั้ง `resume_pending=false` ใน `~/.hermes/sessions/sessions.json`, restart Hermes หนึ่งครั้งเพื่อโหลด config ใหม่; health OK และ `hermes-gateway-comfyui.service` ยัง disabled/inactive ## create-face-portrait / ComfyUI analysis - อ่านสกิล `create-face-portrait` ด้วย SocratiCode แล้วพบว่า flow จริงอยู่ที่ `scripts/create_face_portrait.py` + `references/face_portrait_workflow.json` - workflow ชี้ checkpoint `flux1-dev-fp8.safetensors` ถูกแล้ว แต่สคริปต์ล็อก node id ตายตัว (`workflow[\"6\"]`, `workflow[\"9\"]`) ทำให้เปราะถ้า workflow เปลี่ยน - `SKILL.md` อ้างว่ามี `--neg",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-07T12:04:30.686Z",
+      "lastRecalledAt": "2026-05-07T12:04:30.686Z",
+      "queryHashes": [
+        "973e363480cd"
+      ],
+      "recallDays": [
+        "2026-05-07"
+      ],
+      "conceptTags": [
+        "backup",
+        "gateway",
+        "hermes/config.yaml",
+        "restart/kill",
+        "command-allowlist",
+        "resume-pending",
+        "hermes/sessions/sessions.json",
+        "hermes-gateway-comfyui.service"
+      ]
+    },
+    "memory:memory/2026-05-07.md:10:23": {
+      "key": "memory:memory/2026-05-07.md:10:23",
+      "path": "memory/2026-05-07.md",
+      "startLine": 10,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "- แก้ถาวรโดย backup `~/.hermes/config.yaml`, ลบ allowlist ที่อนุญาตคำสั่ง restart/kill Hermes gateway ออกจาก `command_allowlist`, ตั้ง `resume_pending=false` ใน `~/.hermes/sessions/sessions.json`, restart Hermes หนึ่งครั้งเพื่อโหลด config ใหม่; health OK และ `hermes-gateway-comfyui.service` ยัง disabled/inactive ## create-face-portrait / ComfyUI analysis - อ่านสกิล `create-face-portrait` ด้วย SocratiCode แล้วพบว่า flow จริงอยู่ที่ `scripts/create_face_portrait.py` + `references/face_portrait_workflow.json` - workflow ชี้ checkpoint `flux1-dev-fp8.safetensors` ถูกแล้ว แต่สคริปต์ล็อก node id ตายตัว (`workflow[\"6\"]`, `workflow[\"9\"]`) ทำให้เปราะถ้า workflow เปลี่ยน - `SKILL.md` อ้างว่ามี `--neg",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-07T23:32:44.787Z",
+      "lastRecalledAt": "2026-05-07T23:32:44.787Z",
+      "queryHashes": [
+        "ded4837e5760"
+      ],
+      "recallDays": [
+        "2026-05-08"
+      ],
+      "conceptTags": [
+        "backup",
+        "gateway",
+        "hermes/config.yaml",
+        "restart/kill",
+        "command-allowlist",
+        "resume-pending",
+        "hermes/sessions/sessions.json",
+        "hermes-gateway-comfyui.service"
+      ]
+    },
+    "memory:memory/archive/2026-05-07.md:10:23": {
+      "key": "memory:memory/archive/2026-05-07.md:10:23",
+      "path": "memory/archive/2026-05-07.md",
+      "startLine": 10,
+      "endLine": 23,
+      "source": "memory",
+      "snippet": "- แก้ถาวรโดย backup `~/.hermes/config.yaml`, ลบ allowlist ที่อนุญาตคำสั่ง restart/kill Hermes gateway ออกจาก `command_allowlist`, ตั้ง `resume_pending=false` ใน `~/.hermes/sessions/sessions.json`, restart Hermes หนึ่งครั้งเพื่อโหลด config ใหม่; health OK และ `hermes-gateway-comfyui.service` ยัง disabled/inactive ## create-face-portrait / ComfyUI analysis - อ่านสกิล `create-face-portrait` ด้วย SocratiCode แล้วพบว่า flow จริงอยู่ที่ `scripts/create_face_portrait.py` + `references/face_portrait_workflow.json` - workflow ชี้ checkpoint `flux1-dev-fp8.safetensors` ถูกแล้ว แต่สคริปต์ล็อก node id ตายตัว (`workflow[\"6\"]`, `workflow[\"9\"]`) ทำให้เปราะถ้า workflow เปลี่ยน - `SKILL.md` อ้างว่ามี `--neg",
+      "recallCount": 7,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 5.823005026723427,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-10T09:38:26.673Z",
+      "lastRecalledAt": "2026-05-10T11:34:39.846Z",
+      "queryHashes": [
+        "7f0f28bd7588",
+        "9af906601261",
+        "fb8cb44d4d90",
+        "33d5989b721c",
+        "91f2d37aa794",
+        "67ee277d6980",
+        "d9393b2e1767"
+      ],
+      "recallDays": [
+        "2026-05-10"
+      ],
+      "conceptTags": [
+        "backup",
+        "gateway",
+        "hermes/config.yaml",
+        "restart/kill",
+        "command-allowlist",
+        "resume-pending",
+        "hermes/sessions/sessions.json",
+        "hermes-gateway-comfyui.service"
+      ]
+    },
+    "memory:memory/archive/2026-05-07.md:1:13": {
+      "key": "memory:memory/archive/2026-05-07.md:1:13",
+      "path": "memory/archive/2026-05-07.md",
+      "startLine": 1,
+      "endLine": 13,
+      "source": "memory",
+      "snippet": "## Hermes gateway shutdown loop fix - เจ้านายอนุญาตให้ตรวจ/แก้ Hermes หลังเจอข้อความ `Gateway shutting down — Your current task will be interrupted` วน - พบ 2 สาเหตุจาก journal: 1. มีคำสั่งจากภายใน Hermes เองสั่ง `systemctl --user restart hermes-gateway` / `pkill ... gateway` หลายครั้ง ทำให้งานที่กำลังตอบถูกตัด 2. `hermes-gateway-comfyui.service` เปิด `Restart=always` แต่ profile `comfyui-bot` ไม่มี จึง fail แล้ว auto-restart ทุก 5 นาที (restart counter 95) - แก้โดยปิด service ที่เสีย: `systemctl --user disable --now hermes-gateway-comfyui.service` - ตรวจแล้ว Hermes หลัก `hermes-gateway.service` ยัง active/running และ health endpoint `http://127.0.0.1:8642/health` ตอบ `{\"status\":\"ok\",\"p",
+      "recallCount": 10,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 8.525101603170743,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-10T09:38:26.673Z",
+      "lastRecalledAt": "2026-05-10T11:19:10.952Z",
+      "queryHashes": [
+        "7f0f28bd7588",
+        "9af906601261",
+        "fb8cb44d4d90",
+        "db5429c4ae30",
+        "99005bf3f9db",
+        "531f157f2dec",
+        "8b3c4da07c3c",
+        "860556b613d7",
+        "98e1fa6f7336",
+        "67ee277d6980"
+      ],
+      "recallDays": [
+        "2026-05-10"
+      ],
+      "conceptTags": [
+        "gateway",
+        "ตรวจ/แก",
+        "hermes-gateway",
+        "hermes-gateway-comfyui.service",
+        "comfyui-bot",
+        "auto-restart",
+        "hermes-gateway.service",
+        "active/running"
+      ]
+    }
+  }
+}

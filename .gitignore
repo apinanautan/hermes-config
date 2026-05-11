@@ -1,0 +1,21 @@
+# OpenClaw Workspace Git Ignore
+MODEL_FORMAT_LOCK.md
+backup/
+*.backup
+recovery/
+format-lock/
+.openclaw/
+logs/
+node_modules/
+*.log
+.DS_Store
+tmp/
+temp/
+*.tmp
+*.bak
+secrets.txt
+.env
+auth.json
+*.session
+*.token
+credentials/
