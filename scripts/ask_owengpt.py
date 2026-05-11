@@ -6,6 +6,8 @@ import subprocess
 from playwright.async_api import async_playwright
 
 async def get_win_ip():
+    if os.name == 'nt':
+        return "127.0.0.1"
     try:
         # Get host IP from ip route (WSL2 standard)
         res = subprocess.check_output("ip route show | grep default | awk '{print $3}'", shell=True)
@@ -15,13 +17,16 @@ async def get_win_ip():
 
 async def run():
     if len(sys.argv) < 3:
-        print("Usage: python ask_owengpt.py <cdp_url_or_proxy> <prompt>")
+        print("Usage: python ask_owengpt.py <cdp_url_or_proxy> <prompt> [--new]")
         return
 
-    # Auto-fix IP if it's 127.0.0.1 from WSL
+    # Auto-fix IP if it's from WSL
     win_ip = await get_win_ip()
     cdp_url = sys.argv[1].replace("127.0.0.1", win_ip).replace("localhost", win_ip)
+    # Remove extra quotes often passed from cmd.exe
+    cdp_url = cdp_url.strip('"').strip("'")
     question = sys.argv[2]
+    force_new = "--new" in sys.argv
     gpt_url = "https://chatgpt.com/g/g-6a0092c4d6048191a3e494dd47f18616-owenzzz-bot"
 
     print(f"Connecting to CDP: {cdp_url}")
@@ -30,10 +35,23 @@ async def run():
         async with async_playwright() as p:
             browser = await p.chromium.connect_over_cdp(cdp_url)
             context = browser.contexts[0]
-            page = await context.new_page()
             
-            # Navigate
-            await page.goto(gpt_url, wait_until="domcontentloaded", timeout=60000)
+            # Find existing page for OwenZZZ or Create new
+            page = None
+            if not force_new:
+                for p_in_ctx in context.pages:
+                    if "6a0092c4d6048191a3e494dd47f18616" in p_in_ctx.url:
+                        page = p_in_ctx
+                        print(f"Reusing existing page: {page.url}")
+                        break
+            
+            if not page:
+                print(f"Opening new chat: {gpt_url}")
+                page = await context.new_page()
+                await page.goto(gpt_url, wait_until="domcontentloaded", timeout=60000)
+            else:
+                # Bring to front if possible
+                await page.bring_to_front()
             
             # Wait for textarea
             box = page.locator("#prompt-textarea")
@@ -72,8 +90,8 @@ async def run():
             else:
                 print("ERROR: Response not found")
                 
-            await page.close()
-            # No disconnect() here, playwright handles it in the 'async with' or just use browser.close()
+            # Keep page alive for next turn in AdsPower
+            # await page.close()
     except Exception as e:
         print(f"ERROR: {str(e)}")
 
