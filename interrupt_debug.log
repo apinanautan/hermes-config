@@ -1,0 +1,133 @@
+17:29:19 ENTER: queued interrupt msg='hermes-workspace && pnpm dev   # terminal 2┌────────────────', agent_running=True
+17:29:19 ENTER: queued interrupt msg='│           ⚕ Hermes Gateway Starting...                 │', agent_running=True
+17:29:19 ENTER: queued interrupt msg='├─────────────────────────────────────────────────────────┤', agent_running=True
+17:29:19 interrupt fired: msg='hermes-workspace && pnpm dev   # terminal 2┌────────────────', children=0, parent._interrupt=True
+17:29:19 ENTER: queued interrupt msg='│  Messaging platforms + cron scheduler                    │', agent_running=True
+17:29:19 ENTER: queued interrupt msg='│  Press Ctrl+C to stop                                   │', agent_running=True
+17:29:19 ENTER: queued interrupt msg='└─────────────────────────────────────────────────────────┘', agent_running=True
+17:29:19 ENTER: queued interrupt msg='❌ Gateway already running (PID 2221).', agent_running=True
+17:29:19 ENTER: queued interrupt msg="Use 'hermes gateway restart' to replace it,", agent_running=True
+17:29:19 ENTER: queued interrupt msg="or 'hermes gateway stop' to kill it first.", agent_running=True
+17:29:23 ENTER: queued interrupt msg="Or use 'hermes gateway run --replace' to auto-replace.", agent_running=True
+17:29:23 interrupt fired: msg="Or use 'hermes gateway run --replace' to auto-replace.", children=0, parent._interrupt=True
+17:29:29 interrupt fired: msg='แปลว่าอะไร', children=0, parent._interrupt=True
+17:29:29 ENTER: queued interrupt msg='แปลว่าอะไร', agent_running=True
+17:48:31 ENTER: queued interrupt msg='Start by verifying that Hermes Workspace can reach your Open', agent_running=True
+17:48:31 ENTER: queued interrupt msg='No compatible backend detected yet.', agent_running=True
+17:48:31 ENTER: queued interrupt msg='Compatible backends', agent_running=True
+17:48:31 ENTER: queued interrupt msg='Use any backend that exposes /v1/chat/completions. If you po', agent_running=True
+17:48:31 interrupt fired: msg='Start by verifying that Hermes Workspace can reach your Open', children=0, parent._interrupt=True
+17:48:31 ENTER: queued interrupt msg='pnpm dev', agent_running=True
+17:48:31 ENTER: queued interrupt msg='hermes --gateway', agent_running=True
+17:48:31 ENTER: queued interrupt msg='Retry', agent_running=True
+18:01:28 ENTER: queued interrupt msg='การเชื่อมต่อได้รับการรีเซ็ตแล้ว', agent_running=True
+18:01:28 ENTER: queued interrupt msg='ลอง:', agent_running=True
+18:01:28 ENTER: queued interrupt msg='ตรวจสอบการเชื่อมต่อ', agent_running=True
+18:01:28 ENTER: queued interrupt msg='ตรวจสอบพร็อกซีและไฟร์วอลล์', agent_running=True
+18:01:28 ENTER: queued interrupt msg='เรียกใช้การวินิจฉัยเครือข่ายของ Windows', agent_running=True
+18:01:28 interrupt fired: msg='การเชื่อมต่อได้รับการรีเซ็ตแล้ว', children=0, parent._interrupt=True
+18:01:30 ENTER: queued interrupt msg='ERR_CONNECTION_RESET', agent_running=True
+18:01:30 interrupt fired: msg='ERR_CONNECTION_RESET', children=0, parent._interrupt=True
+18:13:27 interrupt fired: msg='กNo compatible backend detected yet.', children=0, parent._interrupt=True
+18:13:27 ENTER: queued interrupt msg='กNo compatible backend detected yet.', agent_running=True
+18:13:48 interrupt fired: msg='กดไรไม่ได้  Retry Continue', children=0, parent._interrupt=True
+18:13:48 ENTER: queued interrupt msg='กดไรไม่ได้  Retry Continue', agent_running=True
+18:27:16 ENTER: queued interrupt msg='×', agent_running=True
+18:27:16 interrupt fired: msg='×', children=0, parent._interrupt=True
+18:27:16 ENTER: queued interrupt msg='$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ssssssssssssssssssssssssssss', agent_running=True
+18:27:16 ENTER: queued interrupt msg='❌', agent_running=True
+18:27:18 interrupt fired: msg='Failed to send message', children=0, parent._interrupt=True
+18:27:18 ENTER: queued interrupt msg='Failed to send message', agent_running=True
+18:27:26 ENTER: queued interrupt msg='ขึ้นเหมือนเดิม', agent_running=True
+18:27:26 interrupt fired: msg='ขึ้นเหมือนเดิม', children=0, parent._interrupt=True
+18:44:27 ENTER: queued interrupt msg='Failed to fetch', agent_running=True
+18:44:27 ENTER: queued interrupt msg='Retry', agent_running=True
+18:44:27 interrupt fired: msg='Failed to fetch', children=0, parent._interrupt=True
+18:44:30 ENTER: queued interrupt msg='Start Agent', agent_running=True
+18:44:30 interrupt fired: msg='Start Agent', children=0, parent._interrupt=True
+18:44:37 interrupt fired: msg='ทำไมถึงดีับไป', children=0, parent._interrupt=True
+18:44:37 ENTER: queued interrupt msg='ทำไมถึงดีับไป', agent_running=True
+19:16:18 ENTER: queued interrupt msg='อีกแล้ว', agent_running=True
+19:16:18 interrupt fired: msg='อีกแล้ว', children=0, parent._interrupt=True
+19:23:59 ENTER: queued interrupt msg='Hermes Agent not connected พังอีกกแล้วถามไรไปก็พังทำไมมันพัง', agent_running=True
+19:23:59 interrupt fired: msg='Hermes Agent not connected พังอีกกแล้วถามไรไปก็พังทำไมมันพัง', children=0, parent._interrupt=True
+19:36:18 interrupt fired: msg='Workspace', children=0, parent._interrupt=True
+19:36:18 ENTER: queued interrupt msg='Workspace', agent_running=True
+19:36:41 ENTER: queued interrupt msg='แต่อย่าลบ minimax มัันกดเลือกโมเดลได้', agent_running=True
+19:36:41 interrupt fired: msg='แต่อย่าลบ minimax มัันกดเลือกโมเดลได้', children=0, parent._interrupt=True
+19:39:44 interrupt fired: msg='Model switched: gpt-5.5', children=0, parent._interrupt=True
+19:39:44 ENTER: queued interrupt msg='Model switched: gpt-5.5', agent_running=True
+19:39:45 ENTER: queued interrupt msg='Provider: OpenAI Codex', agent_running=True
+19:39:45 ENTER: queued interrupt msg='Context: 272,000 tokens', agent_running=True
+19:39:45 ENTER: queued interrupt msg='Max output: 128,000 tokens', agent_running=True
+19:39:45 ENTER: queued interrupt msg='Cost: $5.00/M in, $30.00/M out, cache read $0.50/M', agent_running=True
+19:39:45 ENTER: queued interrupt msg='Capabilities: reasoning, tools, vision, PDF, structured outp', agent_running=True
+19:40:01 ENTER: queued interrupt msg='Provider: OpenAI Codex', agent_running=True
+19:40:01 ENTER: queued interrupt msg='Context: 272,000 tokens', agent_running=True
+19:40:01 ENTER: queued interrupt msg='Max output: 128,000 tokens', agent_running=True
+19:40:01 interrupt fired: msg='Provider: OpenAI Codex', children=0, parent._interrupt=True
+19:40:04 interrupt fired: msg='Cost: $5.00/M in, $30.00/M out, cache read $0.50/M', children=0, parent._interrupt=True
+19:40:04 ENTER: queued interrupt msg='Cost: $5.00/M in, $30.00/M out, cache read $0.50/M', agent_running=True
+19:40:14 interrupt fired: msg='อันนี้อ่ะ', children=0, parent._interrupt=True
+19:40:14 ENTER: queued interrupt msg='อันนี้อ่ะ', agent_running=True
+20:31:28 interrupt fired: msg='ทำไมคิดนานานจัง', children=0, parent._interrupt=True
+20:31:28 ENTER: queued interrupt msg='ทำไมคิดนานานจัง', agent_running=True
+22:34:41 ENTER: queued interrupt msg="119 |   if (filter === 'ollama-claude') return 'Ollama Claud", agent_running=True
+22:34:41 ENTER: queued interrupt msg='/home/apinan/hermes-workspace/src/screens/chat/components/ch', agent_running=True
+22:34:41 ENTER: queued interrupt msg='114 |  }', agent_running=True
+22:34:41 ENTER: queued interrupt msg='115 |', agent_running=True
+22:34:41 ENTER: queued interrupt msg="116 |  type ModelPickerFilter = 'all' | 'ollama-claude'", agent_running=True
+22:34:41 ENTER: queued interrupt msg='|       ^', agent_running=True
+22:34:41 ENTER: queued interrupt msg='117 |', agent_running=True
+22:34:41 ENTER: queued interrupt msg='118 |  function getModelPickerFilterLabel(filter: ModelPicke', agent_running=True
+22:34:41 ENTER: queued interrupt msg='at constructor (/home/apinan/hermes-workspace/node_modules/.', agent_running=True
+22:34:41 ENTER: queued interrupt msg='at TypeScriptParserMixin.raise (/home/apinan/hermes-workspac', agent_running=True
+22:34:41 ENTER: queued interrupt msg='at TypeScriptScopeHandler.checkRedeclarationInScope (/home/a', agent_running=True
+22:34:41 ENTER: queued interrupt msg='at TypeScriptScopeHandler.declareName (/home/apinan/hermes-w', agent_running=True
+22:34:41 ENTER: queued interrupt msg='at TypeScriptParserMixin.declareNameFromIdentifier (/home/ap', agent_running=True
+22:34:41 ENTER: queued interrupt msg='at TypeScriptParserMixin.checkIdentifier (/home/apinan/herme', agent_running=True
+22:34:41 ENTER: queued interrupt msg='at TypeScriptParserMixin.tsParseTypeAliasDeclaration (/home/', agent_running=True
+22:34:41 ENTER: queued interrupt msg='at TypeScriptParserMixin.parseStatementContent (/home/apinan', agent_running=True
+22:34:41 ENTER: queued interrupt msg='at TypeScriptParserMixin.parseStatementLike (/home/apinan/he', agent_running=True
+22:34:41 ENTER: queued interrupt msg='at TypeScriptParserMixin.parseModuleItem (/home/apinan/herme', agent_running=True
+22:34:41 ENTER: queued interrupt msg='at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/', agent_running=True
+22:34:41 ENTER: queued interrupt msg='at TypeScriptParserMixin.parseBlockBody (/home/apinan/hermes', agent_running=True
+22:34:41 ENTER: queued interrupt msg='at TypeScriptParserMixin.parseProgram (/home/apinan/hermes-w', agent_running=True
+22:34:41 ENTER: queued interrupt msg='at TypeScriptParserMixin.parseTopLevel (/home/apinan/hermes-', agent_running=True
+22:34:41 ENTER: queued interrupt msg='at TypeScriptParserMixin.parse (/home/apinan/hermes-workspac', agent_running=True
+22:34:41 ENTER: queued interrupt msg='at TypeScriptParserMixin.parse (/home/apinan/hermes-workspac', agent_running=True
+22:34:42 ENTER: queued interrupt msg='at parse (/home/apinan/hermes-workspace/node_modules/.pnpm/@', agent_running=True
+22:34:42 ENTER: queued interrupt msg='at parser (/home/apinan/hermes-workspace/node_modules/.pnpm/', agent_running=True
+22:34:42 ENTER: queued interrupt msg='at parser.next (<anonymous>)', agent_running=True
+22:34:42 ENTER: queued interrupt msg='at normalizeFile (/home/apinan/hermes-workspace/node_modules', agent_running=True
+22:34:42 ENTER: queued interrupt msg='at normalizeFile.next (<anonymous>)', agent_running=True
+22:34:42 ENTER: queued interrupt msg='at run (/home/apinan/hermes-workspace/node_modules/.pnpm/@ba', agent_running=True
+22:34:42 ENTER: queued interrupt msg='at run.next (<anonymous>)', agent_running=True
+22:34:42 ENTER: queued interrupt msg='at transform (/home/apinan/hermes-workspace/node_modules/.pn', agent_running=True
+22:34:42 ENTER: queued interrupt msg='at transform.next (<anonymous>)', agent_running=True
+22:34:42 ENTER: queued interrupt msg='at step (/home/apinan/hermes-workspace/node_modules/.pnpm/ge', agent_running=True
+22:34:42 ENTER: queued interrupt msg='at /home/apinan/hermes-workspace/node_modules/.pnpm/gensync@', agent_running=True
+22:34:42 ENTER: queued interrupt msg='at async.call.result.err.err (/home/apinan/hermes-workspace/', agent_running=True
+22:34:42 ENTER: queued interrupt msg='at /home/apinan/hermes-workspace/node_modules/.pnpm/gensync@', agent_running=True
+22:34:42 ENTER: queued interrupt msg='at /home/apinan/hermes-workspace/node_modules/.pnpm/@babel+c', agent_running=True
+22:34:42 ENTER: queued interrupt msg='at /home/apinan/hermes-workspace/node_modules/.pnpm/gensync@', agent_running=True
+22:34:42 ENTER: queued interrupt msg='at step (/home/apinan/hermes-workspace/node_modules/.pnpm/ge', agent_running=True
+22:34:42 ENTER: queued interrupt msg='at /home/apinan/hermes-workspace/node_modules/.pnpm/gensync@', agent_running=True
+22:34:42 ENTER: queued interrupt msg='at async.call.result.err.err (/home/apinan/hermes-workspace/', agent_running=True
+22:34:42 ENTER: queued interrupt msg='Click outside, press Esc key, or fix the code to dismiss.', agent_running=True
+22:34:42 interrupt fired: msg="119 |   if (filter === 'ollama-claude') return 'Ollama Claud", children=0, parent._interrupt=True
+22:42:20 interrupt fired: msg='กูบอกเป็นของ hermes จะไปยุ่งเหี้ยไร กับ open claw', children=0, parent._interrupt=True
+22:42:20 ENTER: queued interrupt msg='กูบอกเป็นของ hermes จะไปยุ่งเหี้ยไร กับ open claw', agent_running=True
+22:47:01 ENTER: queued interrupt msg='ดึงค่าจาก ก cli ไม่ได้เหรอ', agent_running=True
+22:47:01 interrupt fired: msg='ดึงค่าจาก ก cli ไม่ได้เหรอ', children=0, parent._interrupt=True
+23:31:49 ENTER: queued interrupt msg='│  Session: 20260508_231449_de4091  context7 (stdio) — 6 too', agent_running=True
+23:31:49 ENTER: queued interrupt msg='│                                   debugger (stdio) — 25 to', agent_running=True
+23:31:49 ENTER: queued interrupt msg='│                                   zapier (stdio) — failed ', agent_running=True
+23:31:49 ENTER: queued interrupt msg='│                                   jcodemunch (stdio) — fai', agent_running=True
+23:31:49 ENTER: queued interrupt msg='│                                   mcp-server-terminal (std', agent_running=True
+23:31:49 ENTER: queued interrupt msg='│                                   server-everything (stdio', agent_running=True
+23:31:49 ENTER: queued interrupt msg='│                                   opencode-enforce-context', agent_running=True
+23:31:49 interrupt fired: msg='│  Session: 20260508_231449_de4091  context7 (stdio) — 6 too', children=0, parent._interrupt=True
+23:31:49 ENTER: queued interrupt msg='│                                   desktop-commander (stdio', agent_running=True
+23:32:13 ENTER: queued interrupt msg='│                                   comfyui-mcp (stdio) — fa', agent_running=True
+23:32:13 interrupt fired: msg='│                                   comfyui-mcp (stdio) — fa', children=0, parent._interrupt=True

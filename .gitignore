@@ -1,0 +1,50 @@
+# Secrets & Auth
+.env
+.env.*
+*.pem
+*token*
+*secret*
+*password*
+creds.json
+secrets/
+credentials/
+
+# Node modules
+node_modules/
+.mnpm/
+.yarn/
+
+# Python venv
+.venv/
+venv/
+ENV/
+env/
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local git state (not content)
+.git/node/
+
+# Hermès tools — keep excluded
+hermes-agent/
+
+# Personal data — keep excluded
+sessions/
+*.db
+*.db-shm
+*.db-wal
+
+# Runtime junk
+logs/
+audio_cache/
+cache/
+checkpoints/
+gateway.lock
+gateway.pid
+*.log
+*.lock
+*.pid
+*.sock

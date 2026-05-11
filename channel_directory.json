@@ -1,0 +1,30 @@
+{
+  "updated_at": "2026-05-11T16:04:03.444977",
+  "platforms": {
+    "telegram": [
+      {
+        "id": "1060942816",
+        "name": "▫️",
+        "type": "dm",
+        "thread_id": null
+      }
+    ],
+    "discord": [],
+    "whatsapp": [],
+    "slack": [],
+    "signal": [],
+    "mattermost": [],
+    "matrix": [],
+    "homeassistant": [],
+    "email": [],
+    "sms": [],
+    "dingtalk": [],
+    "feishu": [],
+    "wecom": [],
+    "wecom_callback": [],
+    "weixin": [],
+    "bluebubbles": [],
+    "qqbot": [],
+    "yuanbao": []
+  }
+}

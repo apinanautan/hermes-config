@@ -1,0 +1,29 @@
+{
+  "started_at": "2026-05-03T08:56:21.257515+00:00",
+  "duration_seconds": 0.01,
+  "model": "",
+  "provider": "",
+  "auto_transitions": {
+    "marked_stale": 0,
+    "archived": 0,
+    "reactivated": 0,
+    "checked": 0
+  },
+  "counts": {
+    "before": 0,
+    "after": 0,
+    "delta": 0,
+    "archived_this_run": 0,
+    "added_this_run": 0,
+    "state_transitions": 0,
+    "tool_calls_total": 0
+  },
+  "tool_call_counts": {},
+  "archived": [],
+  "added": [],
+  "state_transitions": [],
+  "llm_final": "",
+  "llm_summary": "skipped (no candidates)",
+  "llm_error": null,
+  "tool_calls": []
+}
