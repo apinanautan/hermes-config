@@ -1,32 +1,22 @@
 # owen-gpt
 
-ติดต่อและสอบถามความเห็นจาก OwenGPT (Owenzzz Bot) บน ChatGPT เพื่อวางแผน วิเคราะห์ หรือขอคำปรึกษาเชิง Architecture
+ติดต่อและสอบถามความเห็นจาก OwenGPT (Owenzzz Bot) บน ChatGPT ผ่านกลไก "ตัวแทนตัวเล็ก" (Sub-agent Bridge) เพื่อประหยัดโทเค็นของ Session หลัก
 
 ## ข้อมูลพื้นฐาน
 - **GPT URL:** `https://chatgpt.com/g/g-6a0092c4d6048191a3e494dd47f18616-owenzzz-bot`
-- **AdsPower User:** `k1cawerp`
 - **Script:** `/mnt/c/Users/Apinan/owen-workspace/scripts/ask_owengpt.py`
 
-## เงื่อนไขการใช้งาน (Trigger)
-- เมื่อเจ้านายสั่ง "ปรึกษา OwenGPT", "ถามความเห็นจาก GPT", "ถามโอเว่น (GPT)", หรือ "OwenGPT ว่าไง"
-- เมื่อต้องการแตกงานใหญ่เป็นขั้นตอน (Task Decomposition) ในระดับสูง
+## กลไกการทำงาน (Sub-agent Bridge - บังคับใช้)
+เพื่อไม่ให้ Session หลักเสียโทเค็นในการอ่านคำตอบยาวๆ จาก ChatGPT:
+1. **Main Agent (ผม):** จะไม่รันงานเอง แต่ทำหน้าที่เป็น "คนสั่งงาน" เท่านั้น
+2. **Sub-agent (ตัวเล็ก):** ผมจะเรียก `sessions_spawn` โดยใช้โมเดลเล็ก (ปกติคือ `ollama/qwen2.5:3b`)
+3. **Direct Delivery:** ตั้งค่า `delivery: { mode: "announce" }` ในตัวเล็ก เพื่อให้ผลลัพธ์จาก ChatGPT ถูกส่งตรงไปยัง Telegram ของเจ้านายทันที โดยไม่ไหลกลับเข้า Context ของผม
+4. **No Post-Processing:** เมื่อตัวเล็กส่งงานเสร็จ ผมจะไม่สรุปงานหรืออ่านผลซ้ำ ยกเว้นเจ้านายจะถามเพิ่ม
 
-## ขั้นตอนการทำงาน
-1. **เตรียมสภาพแวดล้อม และ Sync ข้อมูล:**
-   - ใช้ `exec` รัน `/mnt/c/Users/Apinan/owen-workspace/scripts/sync_to_git.sh` เพื่อให้ข้อมูลบน GitHub ล่าสุดที่สุด
-   - ใช้ `exec` รัน curl เพื่อเปิด AdsPower (Profile `k1cawerp`) พร้อมพารามิเตอร์ `&headless=1`
-   - ตัวอย่าง: `curl -s "http://127.0.0.1:50325/api/v1/browser/start?user_id=k1cawerp&api_key=[API_KEY]&headless=1"`
-2. **ดึงข้อมูลเชื่อมต่อ:**
-   - สกัด `ws.puppeteer` จากผลลัพธ์ของ AdsPower API
-3. **รันคำสั่งถาม GPT:**
-   - ใช้ `exec` รัน Python script พร้อมส่ง CDP URL และคำถามของเจ้านาย
-   - ตัวอย่าง: `python scripts/ask_owengpt.py "[CDP_URL]" "[คำถาม]"`
-4. **สรุปผล:**
-   - นำคำตอบจาก OwenGPT มาสรุปให้เจ้านายฟัง โดยคงรูปแบบหัวบทสนทนาของ Owen ไว้
-5. **ปิดหน้าจอ:**
-   - เรียก `browser/stop` เพื่อคืนทรัพยากรทุกครั้ง
-
-## ข้อควรระวัง
-- ห้ามดึงข้อมูลความลับ/รหัสผ่านไปถาม GPT
-- รันแบบ `headless=1` เสมอเพื่อไม่ให้กวนหน้าจอเจ้านาย
-- หาก GPT มีการตอบโต้ที่ต้องการการตัดสินใจ ให้แจ้งเจ้านายก่อนดำเนินการต่อ
+## ขั้นตอนการส่งงาน (Execution Flow)
+1. **Sync ข้อมูล:** รัน `scripts/sync_to_git.sh` เพื่อให้ OwenGPT เห็น Code ล่าสุดบน GitHub
+2. **เปิด Bridge:** เรียก `sessions_spawn` ด้วยการตั้งค่าดังนี้:
+   - `model`: "ollama/qwen2.5:3b"
+   - `task`: "รัน scripts/ask_owengpt.py และส่งข้อความจาก OwenGPT (ChatGPT) ให้เจ้านายทันที"
+   - `delivery`: `{ "mode": "announce", "to": "telegram:1060942816" }`
+3. **จบ Turn:** ผมจะแจ้งเจ้านายว่า "ส่งงานให้ตัวเล็กคุยกับ OwenGPT แล้วครับ" และจบ Turn ทันที
