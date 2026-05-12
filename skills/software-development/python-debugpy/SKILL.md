@@ -1,9 +1,10 @@
 ---
 name: python-debugpy
-description: Use when debugging Python code (run_agent.py, cli.py, tui_gateway, tests, scripts) with real breakpoints, stepping, scope inspection, and post-mortem analysis. Covers `pdb` for interactive REPL debugging and `debugpy` for remote/headless DAP-driven sessions.
+description: "Debug Python: pdb REPL + debugpy remote (DAP)."
 version: 1.0.0
 author: Hermes Agent
 license: MIT
+platforms: [linux, macos]
 metadata:
   hermes:
     tags: [debugging, python, pdb, debugpy, breakpoints, dap, post-mortem]
