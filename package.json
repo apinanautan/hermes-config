@@ -10,6 +10,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "playwright": "^1.60.0",
     "qrcode": "^1.5.4"
-  }
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://apinanautan: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@github.com/apinanautan/owen-workspace.git"
+  },
+  "bugs": {
+    "url": "https://github.com/apinanautan/owen-workspace/issues"
+  },
+  "homepage": "https://github.com/apinanautan/owen-workspace#readme"
 }
