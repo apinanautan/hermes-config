@@ -10,3 +10,16 @@ temp/
 .openclaw/bin/
 .openclaw/cache/
 .openclaw/node/
+
+# Recovery / sandbox
+docs/consultation/
+sandbox/
+
+# Session summaries
+SYSTEM_AGENTS_MAIN/sessions/.summaries/
+
+# Quarantine
+.cleanup-quarantine/
+
+# Disabled scripts
+*.disabled
