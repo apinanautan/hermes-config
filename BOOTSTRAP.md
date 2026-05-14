@@ -21,11 +21,17 @@ Report identity → พร้อมทำงาน
 
 ## Detection Logic
 
+Detection uses **OS + username** (not hostname), with known hostnames as supplementary check:
+
 | Signal | Target |
 |--------|--------|
-| `$OS` = Windows, hostname contains Apinan-PC | → Hermes-PC |
-| `$OSTYPE` = darwin* | → Hermes-Mac |
+| OS=Windows/WSL/Linux AND user=Apinan | → Hermes-PC |
+| OS=macOS | → Hermes-Mac |
 | อื่น ๆ | → Unknown → STOP |
+
+**Known PC hostnames** (for verification only, not primary detection):
+- `DESKTOP-F1PJT4S` (Apinan-PC, current)
+- Future Apinan Windows machines → add here after identity confirm
 
 ## Profile Files
 
