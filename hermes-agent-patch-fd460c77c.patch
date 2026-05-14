@@ -1,0 +1,91 @@
+commit fd460c77cbabc9c1f54aeae80909f8dae0419c5f
+Author: Hermes-PC <hermes@owen.local>
+Date:   Thu May 14 21:30:29 2026 +0700
+
+    strengthen hermes skill authoring rules: NO-ASSUMPTION, tool boundary, DONE condition, retry lock, Tool Gate
+
+diff --git a/skills/software-development/hermes-agent-skill-authoring/SKILL.md b/skills/software-development/hermes-agent-skill-authoring/SKILL.md
+index 3ab3644dc..dd4bff930 100644
+--- a/skills/software-development/hermes-agent-skill-authoring/SKILL.md
++++ b/skills/software-development/hermes-agent-skill-authoring/SKILL.md
+@@ -1,10 +1,9 @@
+ ---
+ name: hermes-agent-skill-authoring
+-description: "Author in-repo SKILL.md: frontmatter, validator, structure."
++description: Use when authoring or updating a SKILL.md inside the hermes-agent repo itself (skills/ tree, committed to a branch). Covers required frontmatter, validator limits, peer-matching structure, and the write_file-vs-skill_manage distinction for in-repo skills.
+ version: 1.0.0
+ author: Hermes Agent
+ license: MIT
+-platforms: [linux, macos, windows]
+ metadata:
+   hermes:
+     tags: [skills, authoring, hermes-agent, conventions, skill-md]
+@@ -17,6 +16,42 @@ metadata:
+ 
+ There are two places a SKILL.md can live:
+ 
++## NO-ASSUMPTION Rule
++
++> Required for all skill execution. Prevents weak models from fabricating missing data.
++
++If information is missing:
++- do NOT infer
++- do NOT fabricate
++- STOP and report missing data with exact field name and source
++
++## Allowed Actions (Tool Boundary)
++
++> Required. Defines what the model MAY and MUST NOT do when executing this skill.
++
++The model MAY:
++- read files
++- edit approved files
++- run approved commands
++- call documented tool APIs
++
++The model MUST NOT:
++- delete unrelated files
++- modify secrets, tokens, credentials, or config containing auth
++- change architecture or system-level settings
++- run destructive actions (rm -rf, DROP, DELETE without verification)
++- use tools not listed in this skill's ## When to Use section
++
++## DONE Condition
++
++> Required. Prevents models from reporting PASS before workflow is actually complete.
++
++The task is DONE only if ALL of:
++- workflow completed (every numbered step executed)
++- verification passed (checks in ## Verification Checklist all checked)
++- required output exists (file, report, or confirmed state)
++- final report generated (status, files changed, exact sections added)
++
+ 1. **User-local:** `~/.hermes/skills/<maybe-category>/<name>/SKILL.md` — personal, not shared. Created via `skill_manage(action='create')`.
+ 2. **In-repo (this skill is about this case):** `/home/bb/hermes-agent/skills/<category>/<name>/SKILL.md` — committed, shipped with the package. Use `write_file` + `git add`. `skill_manage(action='create')` does NOT target this tree.
+ 
+@@ -25,6 +60,7 @@ There are two places a SKILL.md can live:
+ - User asks you to add a skill "in this branch / repo / commit"
+ - You're committing a reusable workflow that should ship with hermes-agent
+ - You're editing an existing skill under `/home/bb/hermes-agent/skills/` (use `patch` for small edits, `write_file` for rewrites; `skill_manage` still works for patch on in-repo skills, but not for `create`)
++- **Policy-file modification:** modifying SOUL.md, AGENTS.md, scripts/ files in `~/.hermes/` or repo (e.g. adding gates, updating workflow rules, changing preflight scripts)
+ 
+ ## Required Frontmatter
+ 
+@@ -152,6 +188,17 @@ Pick the closest existing category. Don't invent new top-level categories casual
+ 
+ 7. **Linking to skills that don't exist in-repo.** `related_skills: [some-user-local-skill]` works for you but breaks for other clones. Prefer only in-repo links.
+ 
++8. **Retry loops without limit.** The model MUST NOT retry more than 1 time. After 1 retry fails, STOP and report `status: stuck` with the error. Do not loop indefinitely.
++
++## Tool Gate (Fail-Closed)
++
++Before using ANY tool for this skill, classify the task first:
++
++1. **CODE TASK?** Keywords: code, edit, file, config, repo, debug, test, build, deploy, mcp, agent, github, script, workflow → → → You MUST call SocratiCode first. Gate fail → STOP.
++2. **FILE TASK?** Keywords: read, write, patch, create, delete file → → → Check if path is in approved scope (skill references, task output, known working directories). Unknown path → STOP and ask.
++3. **TERMINAL/GIT?** Keywords: terminal, git, bash, shell, cmd → → → Check command against skill's documented commands. Destructive commands (rm, DROP, DELETE without WHERE) → STOP and ask.
++4. **BROWSER/AUTOMATION?** Keywords: browser, chrome, click, navigate → → → This skill is for authoring only. Browser automation → route to OpenClaw-PC.
++
+ ## Verification Checklist
+ 
+ - [ ] File is at `skills/<category>/<name>/SKILL.md` (not in `~/.hermes/skills/`)
