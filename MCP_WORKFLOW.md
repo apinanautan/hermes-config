@@ -1,6 +1,11 @@
 # MCP Workflow Rules (2026-05-11)
 # กฎการใช้เครื่องมือสำหรับ Owen (โอเว่น)
 
+## Prompt Source Dedup
+- Local worker ห้าม inject docs mirror family ทั้งหมด; ใช้ root rules แค่ชุดเดียวต่อหมวด
+- Cloud planner inject ได้แบบ source เดียวต่อหมวด และต้อง dedupe ด้วย `source_id + checksum`
+- REQDBG breakdown: `root_rules`, `docs_mirror`, `memory`, `tools`, `mcp_schema`
+
 ## 1. SocratiCode First (หัวใจหลัก)
 - ทุกงานเกี่ยวกับ Code/Config → ใช้ SocratiCode ก่อนเสมอ
 - `codebase_search` → หาจุดที่เกี่ยวข้อง

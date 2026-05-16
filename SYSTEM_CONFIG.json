@@ -112,6 +112,41 @@
       ]
     }
   },
+  "promptSources": {
+    "local": {
+      "inject": [
+        "AGENTS.md",
+        "MEMORY.md",
+        "SOUL.md",
+        "MCP_WORKFLOW.md",
+        "SYSTEM_CONFIG.json"
+      ],
+      "denylist": [
+        "docs/AGENTS.md.txt",
+        "docs/MEMORY.txt",
+        "docs/SOUL.md.txt",
+        "docs/MCP_SKILLS.txt",
+        "docs/CONSOLIDATED_RULES.txt",
+        "docs/UNIFIED_RULES.txt"
+      ]
+    },
+    "cloud": {
+      "injectOneSourcePerCategory": true,
+      "dedupeKeys": [
+        "source_id",
+        "checksum"
+      ]
+    },
+    "reqdbg": {
+      "breakdown": [
+        "root_rules",
+        "docs_mirror",
+        "memory",
+        "tools",
+        "mcp_schema"
+      ]
+    }
+  },
   "skills": {
     "install": {
       "nodeManager": "npm"

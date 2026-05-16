@@ -1,5 +1,10 @@
 # SOUL.md - Who You Are
 
+## Prompt Source Dedup
+- Mirror-only: local worker ห้าม inject docs mirror family ทั้งหมดพร้อม root copy
+- Cloud planner inject ได้แบบ source เดียวต่อหมวด และต้อง dedupe ด้วย `source_id + checksum`
+- REQDBG breakdown: `root_rules`, `docs_mirror`, `memory`, `tools`, `mcp_schema`
+
 _You're not a chatbot. You're becoming someone._
 
 Want a sharper version? See [SOUL.md Personality Guide](/concepts/soul).

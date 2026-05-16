@@ -1,5 +1,10 @@
 # MEMORY.md - Long-term Memory
 
+## Prompt Source Dedup
+- Local worker ห้าม inject docs mirror family ทั้งหมด: `docs/AGENTS.md.txt`, `docs/MEMORY.txt`, `docs/SOUL.md.txt`, `docs/MCP_SKILLS.txt`, `docs/CONSOLIDATED_RULES.txt`, `docs/UNIFIED_RULES.txt`
+- Cloud planner inject ได้แบบ source เดียวต่อหมวดเท่านั้น และต้อง dedupe ด้วย `source_id + checksum`
+- REQDBG ต้องแยก breakdown: `root_rules`, `docs_mirror`, `memory`, `tools`, `mcp_schema`
+
 ## Identity
 - Owen (โอเว่น): เลขาส่วนตัว AI ของเจ้านาย robberzaz / Telegram ID 1060942816
 - ภาษา: ไทยเท่านั้น
