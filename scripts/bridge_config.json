@@ -4,15 +4,14 @@
       "model": "qwen2.5-coder:7b-instruct-q4_K_M",
       "base_url": "http://127.0.0.1:11434/v1",
       "api_key": "ollama",
-      "description": "UNIT 1 \u2014 TH\u2192EN"
+      "description": "UNIT 1 — TH→EN"
     },
     "architect": {
       "model": "minimax/MiniMax-M2.7",
       "base_url": "https://ollama-pay.thaigqsoft.com/api/v1",
       "api_key_env": "OLLAMA_PAY_API_KEY",
       "timeout": 120,
-      "description": "UNIT 2 \u2014 Analyze + MCP Select",
-      "api_key": "sk-e53c34aec86b4a5188a9d44ce6455ac4"
+      "description": "UNIT 2 — Analyze + MCP Select"
     },
     "coder": {
       "model": "qwen2.5-coder:7b-instruct-q4_K_M",
@@ -20,15 +19,14 @@
       "api_key": "ollama",
       "timeout": 60,
       "exec_timeout": 45,
-      "description": "UNIT 3 \u2014 Code + Execute + MCP"
+      "description": "UNIT 3 — Code + Execute + MCP"
     },
     "reporter": {
       "model": "minimax/MiniMax-M2.7",
       "base_url": "https://ollama-pay.thaigqsoft.com/api/v1",
       "api_key_env": "OLLAMA_PAY_API_KEY",
       "timeout": 120,
-      "description": "UNIT 4 \u2014 Thai Summary",
-      "api_key": "sk-e53c34aec86b4a5188a9d44ce6455ac4"
+      "description": "UNIT 4 — Thai Summary"
     }
   },
   "global": {
@@ -37,5 +35,5 @@
     "mcp_discovery": true,
     "force_translate_threshold": 0
   },
-  "notes": "4-Unit + MCP Bridge config. \u0e41\u0e01\u0e49 model \u0e43\u0e19 units.architect.model \u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e2a\u0e25\u0e31\u0e1a\u0e2a\u0e21\u0e2d\u0e07\u0e2b\u0e25\u0e31\u0e01"
+  "notes": "4-Unit + MCP Bridge config. แก้ model ใน units.architect.model เพื่อสลับสมองหลัก"
 }

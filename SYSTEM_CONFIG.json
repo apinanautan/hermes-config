@@ -73,7 +73,7 @@
     "mode": "local",
     "auth": {
       "mode": "token",
-      "token": "e64b3fed4ab590393b1c0d4463830c86b4b4cb542066bef9"
+      "token": "${GATEWAY_AUTH_TOKEN}"
     },
     "port": 18789,
     "bind": "loopback",
@@ -131,7 +131,7 @@
     "providers": {
       "deepseek": {
         "baseUrl": "https://api.deepseek.com",
-        "apiKey": "sk-793970d80c9b41b4bec85c1ef6ab71d8",
+        "apiKey": "${DEEPSEEK_API_KEY}",
         "models": [
           {
             "id": "deepseek-chat",
@@ -145,7 +145,7 @@
       },
       "ollama-pay": {
         "baseUrl": "https://ollama-pay.thaigqsoft.com/api/v1",
-        "apiKey": "sk-e53c34aec86b4a5188a9d44ce6455ac4",
+        "apiKey": "${OLLAMA_PAY_API_KEY}",
         "models": [
           {
             "id": "deepseek-v3.1:671b-cloud",
@@ -228,7 +228,7 @@
       },
       "ollama-claude": {
         "baseUrl": "https://ollama-pay.thaigqsoft.com/api/anthropic",
-        "apiKey": "sk-5bb0c341043343c4a2e20e95b6e8ee7c",
+        "apiKey": "${OLLAMA_PAY_API_KEY}",
         "models": [
           {
             "id": "kimi-k2.6:cloud",
@@ -314,7 +314,7 @@
       },
       "openai-codex": {
         "baseUrl": "https://chatgpt.com/backend-api",
-        "apiKey": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjE5MzQ0ZTY1LWJiYzktNDRkMS1hOWQwLWY5NTdiMDc5YmQwZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MSJdLCJjbGllbnRfaWQiOiJhcHBfRU1vYW1FRVo3M2YwQ2tYYVhwN2hyYW5uIiwiZXhwIjoxNzc4NjY3ODU4LCJodHRwczovL2FwaS5vcGVuYWkuY29tL2F1dGgiOnsiY2hhdGdwdF9hY2NvdW50X2lkIjoiMDIxY2QyY2YtYzFhNS00Y2VjLWI1ZjQtMzk5ZGMwNzI4Yzc3IiwiY2hhdGdwdF9hY2NvdW50X3VzZXJfaWQiOiJ1c2VyLWNmckRlS2VaQ0JCMU5hOElINFkwN2puTF9fMDIxY2QyY2YtYzFhNS00Y2VjLWI1ZjQtMzk5ZGMwNzI4Yzc3IiwiY2hhdGdwdF9jb21wdXRlX3Jlc2lkZW5jeSI6Im5vX2NvbnN0cmFpbnQiLCJjaGF0Z3B0X3BsYW5fdHlwZSI6InBsdXMiLCJjaGF0Z3B0X3VzZXJfaWQiOiJ1c2VyLWNmckRlS2VaQ0JCMU5hOElINFkwN2puTCIsInVzZXJfaWQiOiJ1c2VyLWNmckRlS2VaQ0JCMU5hOElINFkwN2puTCJ9LCJodHRwczovL2FwaS5vcGVuYWkuY29tL3Byb2ZpbGUiOnsiZW1haWwiOiJhcGluYW4uYXV0YW5AZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWV9LCJpYXQiOjE3Nzc4MDM4NTcsImlzcyI6Imh0dHBzOi8vYXV0aC5vcGVuYWkuY29tIiwianRpIjoiNDU3ZjA5NTUtZWViYy00YzllLTljNWQtYzAzMDJjYzU5YWQ2IiwibmJmIjoxNzc3ODAzODU3LCJwd2RfYXV0aF90aW1lIjoxNzc3ODAzODIzNjU3LCJzY3AiOlsib3BlbmlkIiwicHJvZmlsZSIsImVtYWlsIiwib2ZmbGluZV9hY2Nlc3MiXSwic2Vzc2lvbl9pZCI6ImF1dGhzZXNzX3Y3VXBvMXlpVjlCaTNNSmRzek94Q2J3TyIsInNsIjp0cnVlLCJzdWIiOiJnb29nbGUtb2F1dGgyfDExMjUzOTE3NTg0Mzk3MTUwMzQyNyJ9.TWFmqpFDmPMOmbT9S67d5BritxIRrxWKAcx6YiV3qnuxZ6Qr3SHRQ68N9qcMEyENOj-bJKlmDVKvZoFQd-YD2n5if4YziN6MQAa0edcrCtnOx0FDxzGvmRxT2lOzULK0EH7G5nppFetqhwUteSn1KXmYLnj26B3iXknFRLIfisREgquNj4Qr7JABdVbbt_7lQy4Ux-zf0TmAgH_L2FbLPyDvhFG-QRvbc056GIyWOyCbXhyaJ9_cjkKNhdrYBPmHKwyYKu38qWe4sJeal6ocg7R85JYYvjNr_2Vrlt_Zl8-SAwcz3s8j42gYpJVsiIDUSMYT_CGsbOMbuauuTDlXZtWRDIjXszBZ3gGZeXSTyG-gGT-nLTOPTrgrNe_PqUOeFRVCI1CaBSlG8-ugcoX4roYyOUIuiW1HWVv3heGZyxq4cue5kp47d5bezMvbC8pwlCCxi3tbQsjWkv9j6g-UIrBvSwtA_9TiEENqREVdZORC_SispTMCCKY3I2iv_d4FplFDRUUgLO7Xvs0u_xPwRlQ1D0JiMI9T4q0r3S3SfzZG4Tln5zEuaDLYfTZsfQHc_dko1Xl1UgTWGVcx0Gs9terwWIk7UA40FiNvrmpTapQ2g6_M9uIc9itI1nguWfJB81u8Bcbnx2OMfhi_lMk6nj8RurpJDptYqm5ZVPcWI8c",
+        "apiKey": "${OPENAI_CODEX_API_KEY}",
         "models": [
           {
             "id": "gpt-5.5",
@@ -347,7 +347,7 @@
       },
       "minimax": {
         "baseUrl": "https://api.minimax.io/anthropic",
-        "apiKey": "sk-cp-kjq0vJ8QYii1G-PWikNeEF6oMx_ySJqpb-icTKILATzPNdI5OxsnxZVK_jBYr5ygyXfqEJPrqe73IwzrZ37gp_H4ayUaz0YoxMFCYehI1N-Gv8sLlB2vGyw",
+        "apiKey": "${MINIMAX_API_KEY}",
         "models": [
           {
             "id": "MiniMax-M2.7",
@@ -367,7 +367,7 @@
   },
   "channels": {
     "telegram": {
-      "botToken": "8674013658:AAEK6ot7k9xxhoBWFXX5MnpWnA6Jru5uE0o",
+      "botToken": "${TELEGRAM_BOT_TOKEN}",
       "enabled": true,
       "groupPolicy": "open",
       "historyLimit": 3,
