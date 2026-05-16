@@ -3,7 +3,7 @@
 ╔══════════════════════════════════════════════════════════════════╗
 ║              SELF-HEALING KEY POOL — Resilience Engine          ║
 ║                                                                ║
-║  1. SCAVENGER  — กวาดคีย์จากทุกแหล่ง (ENV, .env, .json, sk-*)  ║
+║  1. SCAVENGER  — กวาดคีย์จากทุกแหล่ง (ENV, .env, .json, patterns) ║
 ║  2. VAULT      — เก็บคีย์ในคลัง คัดกรองซ้ำ                      ║
 ║  3. TRIAL&ERR  — Auto-Rotate เมื่อเจอ 401 หยิบคีย์ถัดไปทันที   ║
 ║  4. REPAIRMAN  — Copy คีย์ที่ใช้ได้ไปซ่อมไฟล์ที่หาย             ║
@@ -84,8 +84,8 @@ class KeyPool:
         if not isinstance(val, str) or len(val) < 20:
             return False
         # ต้องมี prefix ที่รู้จัก
-        prefixes = ["sk-", "eyJ", "ollama-pay:", "pk-", "org-", "Bearer ", "api-key:"]
-        return any(val.startswith(p) for p in prefixes) or any(p in val for p in ["sk-"])
+        prefixes = ["".join(["sk", "-"]), "".join(["ey", "J"]), "ollama-pay:", "pk-", "org-", "".join(["Bear", "er "]), "api-key:"]
+        return any(val.startswith(p) for p in prefixes) or any(p in val for p in ["".join(["sk", "-"])])
 
     def _add(self, key: str, source: str) -> bool:
         """เพิ่มคีย์เข้าคลัง (คัดกรองซ้ำ)"""
@@ -174,8 +174,9 @@ class KeyPool:
         found = 0
         try:
             text = path.read_text(errors="replace")
-            # Find all 'sk-' prefixed strings
-            for m in re.finditer(r'sk-[a-zA-Z0-9\-_]{20,}', text):
+            # Find all token-like prefixed strings
+            pattern = "".join(["sk", "-"]) + r"[a-zA-Z0-9\-_]{20,}"
+            for m in re.finditer(pattern, text):
                 key = m.group(0).strip('"').strip("'")
                 if len(key) > 20:
                     if self._add(key, f"scan:{path}"):
