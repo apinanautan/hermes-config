@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chrome-remote-interface": "^0.34.0",
     "playwright": "^1.60.0",
+    "puppeteer": "^25.0.2",
     "qrcode": "^1.5.4"
   },
   "directories": {

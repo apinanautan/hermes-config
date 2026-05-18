@@ -5,11 +5,9 @@
       "model": {
         "primary": "minimax/MiniMax-M2.7",
         "fallbacks": [
-          "ollama-pay/deepseek-v4-pro:cloud",
-          "ollama-pay/gemini-3-flash-preview:cloud",
-          "ollama-pay/qwen3.5:397b-cloud"
+          "ollama-pay/deepseek-v4-flash:cloud"
         ],
-        "timeoutMs": 3600000
+        "timeoutMs": 120000
       },
       "models": {
         "ollama-pay/deepseek-v3.1:671b-cloud": {},
@@ -44,10 +42,10 @@
       },
       "thinkingDefault": "off",
       "compaction": {
-        "keepRecentTokens": 1000,
-        "reserveTokens": 3000,
+        "keepRecentTokens": 800,
+        "reserveTokens": 2000,
         "truncateAfterCompaction": true,
-        "maxActiveTranscriptBytes": "200kb",
+        "maxActiveTranscriptBytes": "150kb",
         "notifyUser": false
       },
       "contextPruning": {
@@ -116,10 +114,7 @@
     "local": {
       "inject": [
         "AGENTS.md",
-        "MEMORY.md",
-        "SOUL.md",
-        "MCP_WORKFLOW.md",
-        "SYSTEM_CONFIG.json"
+        "SOUL.md"
       ],
       "denylist": [
         "docs/AGENTS.md.txt",
@@ -127,7 +122,10 @@
         "docs/SOUL.md.txt",
         "docs/MCP_SKILLS.txt",
         "docs/CONSOLIDATED_RULES.txt",
-        "docs/UNIFIED_RULES.txt"
+        "docs/UNIFIED_RULES.txt",
+        "SYSTEM_CONFIG.json",
+        "MCP_WORKFLOW.md",
+        "MEMORY.md"
       ]
     },
     "cloud": {
@@ -466,25 +464,11 @@
   },
   "mcp": {
     "servers": {
-      "chrome-devtools": {
-        "command": "npx",
-        "args": [
-          "-y",
-          "chrome-devtools-mcp@latest"
-        ]
-      },
       "socraticode": {
         "command": "npx",
         "args": [
           "-y",
           "socraticode"
-        ]
-      },
-      "puppeteer": {
-        "command": "npx",
-        "args": [
-          "-y",
-          "@kirkdeam/puppeteer-mcp-server"
         ]
       },
       "sequential-thinking": {
@@ -498,13 +482,6 @@
           "/mnt/c/Users/Apinan/Downloads",
           "/mnt/c/Users/Apinan/Pictures"
         ]
-      },
-      "ollama": {
-        "command": "/home/apinan/.openclaw/mcp-node/node_modules/.bin/ollama-mcp-server",
-        "args": [],
-        "env": {
-          "OLLAMA_HOST": "http://127.0.0.1:11434"
-        }
       }
     }
   },

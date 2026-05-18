@@ -1,0 +1,11 @@
+# Task: chrome_question_relay
+- **task_id:** ask-system-improve-now
+- **From:** Hermes-PC
+- **Target:** OpenClaw-PC
+- **Type:** chrome_question_relay
+- **Question:** ตอนนี้ระบบควรปรับปรุงอะไรบ้าง
+- **Context:** เจ้านายต้องการความเห็นของระบบเองแบบสั้น ตรง และเน้นสิ่งที่ควรปรับปรุงตอนนี้
+- **Expected Output:** สรุปสั้น ๆ เป็นหัวข้อว่าอะไรควรปรับปรุงและเพราะอะไร
+- **Timeout:** 300s
+- **Report Path:** docs/secretary_tasks/reports/ask-system-improve-now.md
+- **Created:** 2026-05-18 04:24:00

@@ -7,7 +7,7 @@
   1. เปิด Chrome → ไปที่ https://chatgpt.com/g/g-699b39eeedc4819180aeb6ad24c464d9
   2. รอหน้าโหลดเสร็จ
   3. ถามคำถาม: "ทำยังไงให้ Hermes-Agent สร้างรูป (image generation) ผ่าน ChatGPT/GPT ได้? ขอ workflow และ technical steps ที่เป็นไปได้ โดยอ้างอิงจาก GPT ตัวนี้"
-  4. รอคำตอบ
+  4. ส่ง Telegram แจ้งว่า "🟢 Hermes-PC Online"
   5. สรุปคำตอบเป็นภาษาไทย + เก็บเป็น report ที่ `docs/secretary_tasks/reports/chrome-relay-image-gen-001.md`
 - **Safety:** ห้ามกดอะไรที่ไม่เกี่ยว ห้าม download อะไร
 - **Expected Report:** 

@@ -1,0 +1,11 @@
+# Task: chrome_question_relay
+- **task_id:** ask_system_improve_now_2
+- **From:** Hermes-PC
+- **Target:** OpenClaw-PC
+- **Type:** chrome_question_relay
+- **Question:** ตอนนี้ระบบ secretary_tasks ควรปรับปรุงอะไรบ้างแบบเร่งด่วนที่สุด 3 ข้อ
+- **Context:** ขอให้ตอบในมุมมองของระบบจริงตอนนี้จากสิ่งที่เห็นในงานคิว การ pickup รายงาน และความเสถียรของ consumer
+- **Expected Output:** 3 bullet points พร้อมเหตุผลสั้น ๆ ว่าทำไมควรปรับปรุง
+- **Timeout:** 300s
+- **Report Path:** docs/secretary_tasks/reports/ask_system_improve_now_2.md
+- **Created:** 2026-05-18 04:40:00

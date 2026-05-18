@@ -23,3 +23,22 @@ SYSTEM_AGENTS_MAIN/sessions/.summaries/
 
 # Disabled scripts
 *.disabled
+
+# AdsPower API key
+.env*
+!.env.example
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Screenshots / scan artifacts
+*.png
+live_scan_*
+*.html
+
+# Build artifacts
+rustup-init.exe
+
+# External repos
+RuView-repo/
