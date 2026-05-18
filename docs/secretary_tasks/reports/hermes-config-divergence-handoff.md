@@ -1,0 +1,25 @@
+# Hermes Config Divergence Handoff
+
+- repo path: `C:\Users\Apinan\hermes-clean`
+- current branch: `main`
+- local_only_commits:
+  - `e9ebbb1 stabilize owengpt send workflow`
+- remote_only_commits:
+  - `4b62b31 feat: add Local Execution Override routing rule + Chrome relay tasks`
+  - `37780ef Merge branch 'main' of github.com:apinanautan/hermes-config`
+  - `8b3f16b Hermes-PC: patch for NousResearch/hermes-agent fd460c77c (skill authoring rules: NO-ASSUMPTION, tool boundary, DONE condition, retry lock, Tool Gate)`
+- conflicted files:
+  - `scripts/ask_owengpt.py`
+  - `docs/secretary_tasks/inbox/2026-05-14-0718-cloakbrowser-owengpt-test.md`
+  - `docs/secretary_tasks/inbox/chrome-relay-image-gen-001-task.md`
+  - `docs/secretary_tasks/inbox/chrome-relay-image-gen-001.md`
+  - `hermes-agent-patch-fd460c77c.patch`
+- recommended safe resolution:
+  - keep local stable send workflow from `e9ebbb1`
+  - merge remote routing/local override changes from `4b62b31`
+  - preserve exact URL / `--url` / forced CloakBrowser / CDP 9222 rules if present
+  - do not reintroduce MiniMax routing changes
+  - restore remote-added task/patch files unless confirmed obsolete
+  - validate with `python -m py_compile scripts/ask_owengpt.py`, `git status`, and `git diff --check`
+  - commit only after validation, and do not push until approved
+- blocker: SocratiCode/Equivalent audit gate unavailable

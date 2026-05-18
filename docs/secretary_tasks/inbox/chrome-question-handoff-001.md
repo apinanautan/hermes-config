@@ -1,0 +1,11 @@
+# Task: chrome_question_relay
+- **task_id:** chrome-question-handoff-001
+- **target:** OpenClaw-PC
+- **type:** chrome_question_relay
+- **question:** OwenGPT รู้เรื่อง handoff นี้ไหม? ตอนนี้ `HANDOFF.md` ควรเก็บไว้แบบนี้ต่อ, แก้ข้อความให้ตรงกับสถานะล่าสุด, หรือย้าย/สรุปเป็น report แทน? ขอคำตอบสั้น ๆ ว่าควรทำอะไรกับ handoff file นี้
+- **context:** Repo `C:\Users\Apinan\ObsidianVaults\Owenzzz_Brain` มี `HANDOFF.md` ที่ยังค้างแก้ และ repo `C:\Users\Apinan\hermes-clean` เพิ่ง merge ล่าสุด ต้องการให้ Owen ช่วยตัดสินว่า handoff ควรคง, แก้, หรือสรุปใหม่
+- **expected_output:** สรุปสั้น ๆ 3-5 bullet: what it knows, recommended action, and whether to keep/delete/replace handoff
+- **timeout_seconds:** 300
+- **report_path:** docs/secretary_tasks/reports/chrome-question-handoff-001.md
+- **retry_limit:** 1
+- **created:** 2026-05-15

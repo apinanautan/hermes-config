@@ -1,78 +1,22 @@
 {
   "providers": {
-    "codex": {
-      "baseUrl": "https://chatgpt.com/backend-api",
-      "apiKey": "${OPENAI_CODEX_API_KEY}",
-      "auth": "token",
-      "api": "openai-codex-responses",
+    "minimax": {
+      "baseUrl": "https://api.minimax.io/anthropic",
       "models": [
         {
-          "id": "gpt-5.5",
-          "name": "gpt-5.5",
-          "api": "openai-codex-responses",
-          "reasoning": true,
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 272000,
-          "maxTokens": 128000,
-          "compat": {
-            "supportsReasoningEffort": true,
-            "supportsUsageInStreaming": true
-          }
+          "id": "MiniMax-M2.7",
+          "name": "MiniMax-M2.7"
         },
         {
-          "id": "gpt-5.4-mini",
-          "name": "GPT-5.4-Mini",
-          "api": "openai-codex-responses",
-          "reasoning": true,
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 272000,
-          "maxTokens": 128000,
-          "compat": {
-            "supportsReasoningEffort": true,
-            "supportsUsageInStreaming": true
-          }
+          "id": "MiniMax-M2.7-Lightning",
+          "name": "MiniMax-M2.7 Lightning"
         },
         {
-          "id": "gpt-5.2",
-          "name": "gpt-5.2",
-          "api": "openai-codex-responses",
-          "reasoning": true,
-          "input": [
-            "text",
-            "image"
-          ],
-          "cost": {
-            "input": 0,
-            "output": 0,
-            "cacheRead": 0,
-            "cacheWrite": 0
-          },
-          "contextWindow": 272000,
-          "maxTokens": 128000,
-          "compat": {
-            "supportsReasoningEffort": true,
-            "supportsUsageInStreaming": true
-          }
+          "id": "MiniMax-VL-01",
+          "name": "MiniMax-VL-01"
         }
-      ]
+      ],
+      "apiKeyEnv": "MINIMAX_API_KEY"
     },
     "google": {
       "baseUrl": "https://generativelanguage.googleapis.com/v1beta",
@@ -172,11 +116,10 @@
           }
         }
       ],
-      "apiKey": "${DEEPSEEK_API_KEY}"
+      "apiKeyEnv": "DEEPSEEK_API_KEY"
     },
     "thaigq": {
       "baseUrl": "https://ollama-pay.thaigqsoft.com/api/v1",
-      "apiKey": "${OLLAMA_PAY_API_KEY}",
       "models": [
         {
           "id": "deepseek-v4-pro:cloud",
@@ -222,11 +165,11 @@
           "id": "gpt-oss:120b-cloud",
           "name": "gpt-oss:120b-cloud"
         }
-      ]
+      ],
+      "apiKeyEnv": "OLLAMA_PAY_API_KEY"
     },
     "ollama-pay": {
       "baseUrl": "https://ollama-pay.thaigqsoft.com/api/v1",
-      "apiKey": "${OLLAMA_PAY_API_KEY}",
       "models": [
         {
           "id": "deepseek-v3.1:671b-cloud",
@@ -305,11 +248,11 @@
           "name": "thaigqsoft_bot/preewar-uncensored:397b"
         }
       ],
-      "timeoutSeconds": 3600
+      "timeoutSeconds": 3600,
+      "apiKeyEnv": "OLLAMA_PAY_API_KEY"
     },
     "ollama-claude": {
       "baseUrl": "https://ollama-pay.thaigqsoft.com/api/anthropic",
-      "apiKey": "${OLLAMA_PAY_API_KEY}",
       "models": [
         {
           "id": "kimi-k2.6:cloud",
@@ -339,7 +282,8 @@
           "id": "qwen3.5:397b-cloud",
           "name": "qwen3.5:397b-cloud"
         }
-      ]
+      ],
+      "apiKeyEnv": "OLLAMA_PAY_API_KEY"
     },
     "openai": {
       "baseUrl": "https://api.openai.com/v1",
@@ -395,7 +339,6 @@
     },
     "openai-codex": {
       "baseUrl": "https://chatgpt.com/backend-api",
-      "apiKey": "${OPENAI_CODEX_API_KEY}",
       "models": [
         {
           "id": "gpt-5.5",
@@ -424,25 +367,8 @@
         }
       ],
       "auth": "token",
-      "api": "openai-codex-responses"
-    },
-    "minimax": {
-      "baseUrl": "https://api.minimax.io/anthropic",
-      "apiKey": "${MINIMAX_API_KEY}",
-      "models": [
-        {
-          "id": "MiniMax-M2.7",
-          "name": "MiniMax-M2.7"
-        },
-        {
-          "id": "MiniMax-M2.7-Lightning",
-          "name": "MiniMax-M2.7 Lightning"
-        },
-        {
-          "id": "MiniMax-VL-01",
-          "name": "MiniMax-VL-01"
-        }
-      ]
+      "api": "openai-codex-responses",
+      "apiKeyEnv": "OPENAI_CODEX_AUTH_TOKEN"
     }
   }
 }

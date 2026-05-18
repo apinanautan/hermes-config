@@ -4,14 +4,14 @@
     "deepseek:manual": {
       "provider": "deepseek",
       "type": "api_key",
-      "key": "[REDACTED]"
+      "keyEnv": "DEEPSEEK_API_KEY"
     },
     "openai-codex:codex-cli": {
       "type": "oauth",
       "provider": "openai-codex",
-      "access": "[REDACTED]",
-      "refresh": "[REDACTED]",
-      "expires": 1778667858000
+      "expires": 1778667858000,
+      "accessEnv": "OPENAI_CODEX_ACCESS_TOKEN",
+      "refreshEnv": "OPENAI_CODEX_REFRESH_TOKEN"
     }
   }
 }
