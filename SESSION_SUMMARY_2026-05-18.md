@@ -38,7 +38,7 @@ C:\Users\Apinan\hermes-clean\scripts\
 
 ## API Keys
 ที่ `C:\Users\Apinan\AppData\Local\hermes\.env`:
-- `TELEGRAM_BOT_TOKEN` (8717275013:AAFl... = @MeszzzBot)
+- `TELEGRAM_BOT_TOKEN` (@MeszzzBot)
 - `ADSPOWER_API_KEY` (ใช้ Bearer prefix)
 - `OLLAMA_PAY_API_KEY`
 - `OPENCODE_GO_API_KEY`

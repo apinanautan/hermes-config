@@ -1,5 +1,10 @@
 # AGENTS.md - Owen Workspace Rules
 
+## Prompt Source Dedup
+- Local worker ห้าม inject docs mirror family ทั้งหมด: `docs/AGENTS.md.txt`, `docs/MEMORY.txt`, `docs/SOUL.md.txt`, `docs/MCP_SKILLS.txt`, `docs/CONSOLIDATED_RULES.txt`, `docs/UNIFIED_RULES.txt`
+- Cloud planner inject ได้แบบ source เดียวต่อหมวดเท่านั้น และต้อง dedupe ด้วย `source_id + checksum`
+- REQDBG ต้องแยก breakdown: `root_rules`, `docs_mirror`, `memory`, `tools`, `mcp_schema`
+
 ## Reply Format (บังคับ)
 ทุกคำตอบปกติถึงเจ้านายใช้หัวเดียว:
 `🧑🏼‍💻[MODEL] [ประเภท] 🧑🏼‍💻`

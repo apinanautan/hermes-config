@@ -1,5 +1,10 @@
 # OpenClaw MCP & Skills - Complete Reference
 
+## Prompt Source Dedup
+- Mirror-only: local worker ห้าม inject docs mirror family ทั้งหมดพร้อม root copy
+- Cloud planner inject ได้แบบ source เดียวต่อหมวด และต้อง dedupe ด้วย `source_id + checksum`
+- REQDBG breakdown: `root_rules`, `docs_mirror`, `memory`, `tools`, `mcp_schema`
+
 ## MCP Servers (ทำงานแล้วตอนนี้)
 
 ### 1. socraticode
