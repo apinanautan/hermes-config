@@ -3,7 +3,7 @@ node_modules/
 logs/
 .DS_Store
 *.tmp
-*.bak
+*.bak*
 *.session
 *.token
 temp/
@@ -23,3 +23,14 @@ SYSTEM_AGENTS_MAIN/sessions/.summaries/
 
 # Disabled scripts
 *.disabled
+.env
+.env.local
+.env.*.local
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Runtime state (contains offsets/ports)
+scripts/.dispatcher_offset.json
+scripts/.owengpt_port
